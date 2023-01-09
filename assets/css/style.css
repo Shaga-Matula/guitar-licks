@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 header > a > h1 {
-    color:red;
+    color:rgba(25, 27, 119, 0.733);
+    font-family: Bebas Neue;
 }
