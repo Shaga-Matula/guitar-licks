@@ -5,20 +5,47 @@
     margin: 0;
     padding: 0;
     border: none;
-/* Main font chosen, need another font to compliment Bebas Neue */
+    /* Main font chosen, need another font to compliment Bebas Neue */
 }
 
 body {
     font-family: Montserrat, sans-serif;
-    color:#3a3a3a;
+    color: #3a3a3a;
 }
 
-h1, h2 {
-        font-family: Bebas Neue, sans-serif;
-        color: #252525;
-        letter-spacing: 3px;
+#menu-links,
+h1,
+h2 {
+    font-family: Bebas Neue, sans-serif;
+    color: #252525;
+    letter-spacing: 3px;
 }
+
+/* Main Logo for site on left*/
+
 #main-logo {
     float: left;
     font-size: 300%;
+}
+
+/* Internal links menu on right */
+#menu-links {
+    float: right;
+    font-size: 125%;
+    letter-spacing: 3px;
+    display: flex;
+
+}
+
+#menu-links>li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu-links a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu-links, #main-logo {
+    line-height: 80px;
 }
