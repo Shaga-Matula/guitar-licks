@@ -1,12 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
 
+/* set all margin and padding to 0 */
 * {
     margin: 0;
     padding: 0;
     border: none;
+/* Main font chosen, need another font to compliment Bebas Neue */
 }
-python3
-Body {
-    color:rgba(25, 27, 119, 0.733);
-    font-family: Bebas Neue, sans-serif;
+
+body {
+    font-family: Montserrat, sans-serif;
+    color:#3a3a3a;
+}
+
+h1, h2 {
+        font-family: Bebas Neue, sans-serif;
+        color: #252525;
+        letter-spacing: 3px;
+}
+#main-logo {
+    float: left;
+    font-size: 300%;
 }
