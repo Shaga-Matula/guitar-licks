@@ -55,4 +55,12 @@ h2 {
     border-radius: 4px;
     padding: 0 10px 0 10px;
     font-size: 110%; 
-    }
+}
+
+/* main image or hero image */
+#main-image {
+    height: 600px;
+    height: 100%;
+    background: url(../images/hero-guitar_ii.jpg) no-repeat center center;
+
+}
