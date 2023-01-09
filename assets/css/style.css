@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-header > a > h1 {
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+python3
+Body {
     color:rgba(25, 27, 119, 0.733);
-    font-family: Bebas Neue;
+    font-family: Bebas Neue, sans-serif;
 }
