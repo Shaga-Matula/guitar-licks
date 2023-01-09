@@ -31,7 +31,7 @@ h2 {
 /* Internal links menu on right */
 #menu-links {
     float: right;
-    font-size: 125%;
+    font-size: 150%;
     letter-spacing: 3px;
     display: flex;
 
@@ -47,5 +47,12 @@ h2 {
     color: inherit;
 }
 #menu-links, #main-logo {
-    line-height: 80px;
+    line-height: 75px;
 }
+#menu-links a:hover {
+    box-shadow: 2px 2px black;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0 10px 0 10px;
+    font-size: 110%; 
+    }
