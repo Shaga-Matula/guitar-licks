@@ -18,7 +18,7 @@ body {
 h1,
 h2 {
     font-family: Bebas Neue, sans-serif;
-    color: #252525;
+    color: #6fcbec;
     letter-spacing: 3px;
 }
 /* ========This is the headder and logo section =========*/
@@ -30,7 +30,7 @@ h2 {
     justify-content: space-between;
     height: 75px;
     align-items: center;
-    background-color: #3a3a3a;
+    /* background-color: #fcde67; */
     padding: 1em;
 }
 
@@ -45,7 +45,7 @@ a:active {
 }
 /* clean up nav links & give some style */
 #nav-bar li a {
-    color: white;
+    color: #6fcbec;
     text-decoration: none;
     font-size: 1.2em;
     padding: 0 5px 0 5px;
@@ -55,8 +55,8 @@ a:active {
 }
 #main-logo {
     font-family:Bebas Neue, sans-serif;
-    color: white;
-    text-decoration: none;
+    color: #6fcbec;
+    
 }
 
 
@@ -68,23 +68,30 @@ a:active {
     padding: 0 5px 0 5px;
     font-size: 1.2em;
 }
+header a {
+    
+    text-decoration: none;
 
+}
 /* header screen size less 600px */
 @media only screen and (max-width: 600px) {
     #menu-bar {
         flex-direction: column;
         font-size: .8em;
         padding: 0 10px 20px 10px;
+        background-image: url(../images/guitar-pedels2.jpg);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-size: 400px 100px;
     }
     #nav-bar li a {
         font-size: 1.0em;
-        
         font-weight: 400;
     }
     #main-logo {
         font-size: 2.0em;
         font-weight: 300;
         padding-top: 20px;
-        text-decoration: none;
+       
     }
 }
