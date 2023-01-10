@@ -53,6 +53,12 @@ a:active {
     font-weight: 600;
     transition: all 0.9s ease 0s;
 }
+#main-logo {
+    font-family:Bebas Neue, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
 
 /* hightlight border of nav icons when hover over */
 #nav-bar li a:hover {
@@ -70,10 +76,13 @@ a:active {
         font-size: .8em;
     }
     #nav-bar li a {
-        font-size: .8em;
+        font-size: 1.0em;
         padding-bottom: 10px;
     }
     #main-logo {
-        font-size: 1.5em;
+        font-size: 2.0em;
+        font-weight: 300;
+        padding-top: 20px;
+        text-decoration: none;
     }
 }
