@@ -4,3 +4,4 @@ Project 1: - Guitar licks, Guitar tuition and resource web site. Initial Start 0
 
 1.0 Day 1 created page with head\metadata tags, directory’s and files (assets/css), boiler plate with accessibility in mind and also font experimentation. 09/01/2023
 
+Thanks to : https://freshman.tech/flexbox-navbar/ Flexbox

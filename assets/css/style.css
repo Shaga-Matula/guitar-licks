@@ -1,68 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
+
 /* Main font chosen, need another font to compliment Bebas Neue */
 /* set all margin and padding to 0 */
 * {
     margin: 0;
     padding: 0;
     border: none;
- }
+}
 
- body {
+body {
     font-family: Montserrat, sans-serif;
     color: #3a3a3a;
 }
 
-#nav-links,
+/* set default font in h1 and h2 */
 h1,
 h2 {
     font-family: Bebas Neue, sans-serif;
     color: #252525;
     letter-spacing: 3px;
 }
-
-/* Main Logo for site on left*/
-
-#main-logo {
-    font-size: 200%;
-}
-
-/* Internal links menu on right */
-#nav-bar {
+/* menu bar css with flex */
+#menu-bar {
     display: flex;
     justify-content: space-between;
+    height: 75px;
     align-items: center;
-    font-size: 1.2em;
-    letter-spacing: 3px;    
-}
-#nav-links{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#nav-links>li {
-    list-style-type: none;
-    margin-right: 30px;
+    background-color: #3a3a3a;
+    padding: 1em;
 }
 
-#nav-links a {
+/* give a colour when active */
+a:active {
+    background-color: rgb(122, 122, 92);
+}
+
+#nav-bar li {
+    display: inline-block;
+    padding: 0 10px 0 0;
+}
+
+#nav-bar li a {
+    color: white;
     text-decoration: none;
-    color: inherit;
+    font-size: 1.2em;
+    padding: 0 5px 0 5px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: all 0.9s ease 0s;
 }
-#nav-links {
-    line-height: 75px;
-}
-#nav-links a:hover {
-    box-shadow: 2px 2px black;
-    border: 1px solid black;
+/* hightlight border of nav icons when hover over */
+#nav-bar li a:hover {
+    box-shadow: 2px 2px grey;
+    border: 1px solid grey;
     border-radius: 4px;
-    padding: 0 10px 0 10px;
-    font-size: 110%; 
+    padding: 0 5px 0 5px;
+    font-size: 1.2em; 
 }
 
-/* main image or hero image */
-/* #main-image {
-    height: 600px;
-    height: 100%;
-    background: url(../images/hero-guitar_ii.jpg) no-repeat center center;
-
-} */
