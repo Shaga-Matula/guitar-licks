@@ -79,10 +79,10 @@ header a {
         flex-direction: column;
         font-size: .8em;
         padding: 0 10px 20px 10px;
-        background-image: url(../images/guitar-pedels2.jpg);
-        background-repeat: no-repeat;
-        background-size:contain;
-        background-size: 400px 100px;
+        /* background-repeat: no-repeat; */
+        /* background-size:contain; */
+        /* background-size: 400px 100px; */
+        background-color: black;
     }
     #nav-bar li a {
         font-size: 1.0em;
