@@ -50,7 +50,7 @@ a:active {
     font-size: 1.2em;
     padding: 0 5px 0 5px;
     letter-spacing: 3px;
-    font-weight: 600;
+    font-weight: 400;
     transition: all 0.9s ease 0s;
 }
 #main-logo {
@@ -74,10 +74,12 @@ a:active {
     #menu-bar {
         flex-direction: column;
         font-size: .8em;
+        padding: 0 10px 20px 10px;
     }
     #nav-bar li a {
         font-size: 1.0em;
-        padding-bottom: 10px;
+        
+        font-weight: 400;
     }
     #main-logo {
         font-size: 2.0em;
