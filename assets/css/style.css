@@ -57,4 +57,9 @@ a:active {
     padding: 0 5px 0 5px;
     font-size: 1.2em; 
 }
-
+@media only screen and (max-width: 600px) {
+    #nav-bar li a {
+      background-color: lightblue;
+      font-size: .8em;
+    }
+  }
