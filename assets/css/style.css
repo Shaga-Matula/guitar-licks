@@ -8,6 +8,16 @@
     border: none;
 }
 
+@media only screen and (max-width: 600px) {
+    #menu-bar {
+        flex-direction: column;
+        font-size: .8em;
+    }
+    #nav-bar li a {
+        color:red;
+    }
+}
+
 body {
     font-family: Montserrat, sans-serif;
     color: #3a3a3a;
@@ -20,6 +30,7 @@ h2 {
     color: #252525;
     letter-spacing: 3px;
 }
+
 /* menu bar css with flex */
 #menu-bar {
     display: flex;
@@ -30,7 +41,7 @@ h2 {
     padding: 1em;
 }
 
-/* give a colour when active */
+/* give a colour when active testing olnly for now */
 a:active {
     background-color: rgb(122, 122, 92);
 }
@@ -49,17 +60,23 @@ a:active {
     font-weight: 600;
     transition: all 0.9s ease 0s;
 }
+
 /* hightlight border of nav icons when hover over */
 #nav-bar li a:hover {
     box-shadow: 2px 2px grey;
     border: 1px solid grey;
     border-radius: 4px;
     padding: 0 5px 0 5px;
-    font-size: 1.2em; 
+    font-size: 1.2em;
 }
+
+/* header screen size less 600px */
 @media only screen and (max-width: 600px) {
-    #nav-bar li a {
-      background-color: lightblue;
-      font-size: .8em;
+    #menu-bar {
+        flex-direction: column;
+        font-size: .8em;
     }
-  }
+    #nav-bar li a {
+        font-size: .8em;
+    }
+}
