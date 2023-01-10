@@ -23,15 +23,15 @@ h2 {
 /* Main Logo for site on left*/
 
 #main-logo {
-    font-size: 300%;
+    font-size: 200%;
 }
 
 /* Internal links menu on right */
-#menu-bar {
+#nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 3px;    
 }
 #nav-links{
@@ -48,7 +48,7 @@ h2 {
     text-decoration: none;
     color: inherit;
 }
-#nav-links, #main-logo {
+#nav-links {
     line-height: 75px;
 }
 #nav-links a:hover {
@@ -60,9 +60,9 @@ h2 {
 }
 
 /* main image or hero image */
-#main-image {
+/* #main-image {
     height: 600px;
     height: 100%;
     background: url(../images/hero-guitar_ii.jpg) no-repeat center center;
 
-}
+} */
