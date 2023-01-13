@@ -7,4 +7,6 @@ Project 1: - Guitar licks, Guitar tuition and resource web site. Initial Start 0
 1.1 Day 2  Created headder with nav icons that shadow when chosen with .9 sec transition 10/01/23
 <hr>
 Thanks to : https://freshman.tech/flexbox-navbar/ Flexbox
+<hr>
 ![Landing page-1](https://user-images.githubusercontent.com/120735585/212388955-2e5e7543-ed05-48ad-9755-6be878c95491.jpg)
+<a href="https://stackoverflow.com/"><img src=(https://user-images.githubusercontent.com/120735585/212388955-2e5e7543-ed05-48ad-9755-6be878c95491.jpg></img></a>
