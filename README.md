@@ -8,5 +8,10 @@ Project 1: - Guitar licks, Guitar tuition and resource web site. Initial Start 0
 <hr>
 Thanks to : https://freshman.tech/flexbox-navbar/ Flexbox
 <hr>
-![Landing page-1](https://user-images.githubusercontent.com/120735585/212388955-2e5e7543-ed05-48ad-9755-6be878c95491.jpg)
-<a href="https://stackoverflow.com/"><img src=(https://user-images.githubusercontent.com/120735585/212388955-2e5e7543-ed05-48ad-9755-6be878c95491.jpg></img></a>
+Landing page rough sketch
+<img src="assets/images/landing-page-1.png" width=200>
+Cources page rough sketch
+<img src="assets/images/cources-page-1.png" width=200>
+Contact page rough sketch
+<img src="assets/images/contacts-page-1.png" width=200>
+
