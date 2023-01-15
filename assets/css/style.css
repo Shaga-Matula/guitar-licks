@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
 
 /* Main font chosen, need another font to complament Bebas Neue maybe Montserrat */
 /* set all margin and padding to 0 */
@@ -11,14 +12,14 @@
 /* Set default font to body */
 body {
     font-family: Montserrat, sans-serif;
-    color: #3a3a3a;
+    color: #2e2f2f;
 }
 
 /* set default font in h1 and h2 */
 h1,
 h2 {
     font-family: Bebas Neue, sans-serif;
-    color: #6fcbec;
+    color: #eb8921;
     letter-spacing: 3px;
 }
 /* ========This is the headder and logo section =========*/
@@ -30,8 +31,8 @@ h2 {
     justify-content: space-between;
     height: 75px;
     align-items: center;
-    /* background-color: #fcde67; */
     padding: 1em;
+    background-color: black;
 }
 
 /* give a links colour when active testing olnly for now */
@@ -42,21 +43,24 @@ a:active {
 #nav-bar li {
     display: inline-block;
     padding: 0 10px 0 0;
+    
 }
 /* clean up nav links & give some style */
 #nav-bar li a {
-    color: #6fcbec;
     text-decoration: none;
     font-size: 1.2em;
     padding: 0 5px 0 5px;
     letter-spacing: 3px;
     font-weight: 400;
-    transition: all 0.9s ease 0s;
+    color: #eb8921;
+    transition: all 0.5s ease 0s;
 }
-#main-logo {
-    font-family:Bebas Neue, sans-serif;
-    color: #6fcbec;
-    
+.main-logo {
+    font-family:Irish Grover, sans-serif;
+    color: #eb8921;
+    font-weight: 400;
+    font-size: 1.5em;
+
 }
 
 
