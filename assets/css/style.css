@@ -8,7 +8,14 @@
     padding: 0;
     border: none;
 }
-
+#main-image {
+    background-image: url(../images/hero-guitar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+   
+}
 /* Set default font to body */
 body {
     font-family: Montserrat, sans-serif;
@@ -96,6 +103,7 @@ header a {
         font-size: 2.0em;
         font-weight: 300;
         padding-top: 20px;
-       
     }
+   
+         
 }
