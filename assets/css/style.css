@@ -71,11 +71,6 @@ a:active {
     font-size: 1.2em;
 }
 
-header a {
-
-    text-decoration: none;
-
-}
 
 /* header screen size less 600px */
 @media only screen and (max-width: 600px) {
@@ -101,6 +96,7 @@ header a {
         background-size: cover;
         height: 450px;
         color: #eb8921;
+        width: 100%;
     }
 
     #main-image h1 {
@@ -119,6 +115,8 @@ header a {
         font-weight: 400;
         text-align: center;
         color: white;
-        /* padding: 10% 0 0 10%; */
+        padding-right: 5%;
+        padding-top: 25%;
+        padding-left: 25%;
     }
 }
