@@ -11,7 +11,7 @@
 
 /* Set default font to body */
 body {
-    font-family:Irish Grover, sans-serif;
+    font-family: Irish Grover, sans-serif;
     color: #2e2f2f;
 }
 
@@ -34,12 +34,14 @@ body {
 a:active {
     background-color: rgb(122, 122, 92);
 }
+
 /* Horizoltal display for nav Icons */
 #nav-bar li {
     display: inline-block;
     padding: 0 10px 0 0;
-    
+
 }
+
 /* clean up nav links & give some style */
 #nav-bar li a {
     text-decoration: none;
@@ -50,8 +52,9 @@ a:active {
     color: #eb8921;
     transition: all 0.5s ease 0s;
 }
+
 .main-logo {
-    font-family:Irish Grover, sans-serif;
+    font-family: Irish Grover, sans-serif;
     color: #eb8921;
     font-weight: 400;
     font-size: 1.5em;
@@ -67,11 +70,13 @@ a:active {
     padding: 0 5px 0 5px;
     font-size: 1.2em;
 }
+
 header a {
-    
+
     text-decoration: none;
 
 }
+
 /* header screen size less 600px */
 @media only screen and (max-width: 600px) {
     #menu-bar {
@@ -80,34 +85,40 @@ header a {
         padding: 0 10px 20px 10px;
         background-color: black;
     }
-        #nav-bar li a {
+
+    #nav-bar li a {
         font-size: 1.0em;
         font-weight: 400;
-        font-family:Bebas Neue, sans-serif;
-        color: white;  
+        font-family: Bebas Neue, sans-serif;
+        color: white;
     }
 
-   
+
     #main-image {
         background-image: url(../images/hero-guitar.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 300px;  
-        color: #eb8921;     
+        height: 450px;
+        color: #eb8921;
     }
+
+    #main-image h1 {
+        font-family: Irish Grover, sans-serif;
+        color: white;
+        font-size: 2.0em;
+        font-weight: 400;
+        padding-left: 10%;
+        padding-top: 8%;
+    }
+
     #main-image h2 {
-        font-family:Irish Grover, sans-serif;
+        font-family: Irish Grover, sans-serif;
         color: #f5ad28;
         font-size: 1.0em;
         font-weight: 400;
-        padding: 10% 0 0 10%;
-    }
-    #main-image h1{
-    font-family:Irish Grover, sans-serif;
-    color: white; 
-    font-size: 1.5em;
-    font-weight: 400;
-   
+        text-align: center;
+        color: white;
+        /* padding: 10% 0 0 10%; */
     }
 }
