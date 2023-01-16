@@ -30,6 +30,10 @@ body {
     background-color: black;
 }
 
+#menu-bar a {
+    text-decoration: none;
+}
+
 /* give a links colour when active testing olnly for now */
 a:active {
     background-color: rgb(122, 122, 92);
@@ -61,6 +65,11 @@ a:active {
 
 }
 
+#deal-main a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
 
 /* hightlight border of nav icons when hover over */
 #nav-bar li a:hover {
@@ -102,21 +111,36 @@ a:active {
     #main-image h1 {
         font-family: Irish Grover, sans-serif;
         color: white;
-        font-size: 2.0em;
+        font-size: 2.5em;
         font-weight: 400;
-        padding-left: 10%;
+        padding-left: .5em;
         padding-top: 8%;
+        /* background-color: aqua; */
+        
     }
 
     #main-image h2 {
         font-family: Irish Grover, sans-serif;
+        
         color: #f5ad28;
-        font-size: 1.0em;
-        font-weight: 400;
+        font-size: 1.2em;
+        /* font-weight: 400; */
         text-align: center;
         color: white;
-        padding-right: 5%;
+        /* padding-right: 5%; */
         padding-top: 25%;
         padding-left: 25%;
+        padding-bottom:15%;
+        /* background-color: #21eb64; */
+        
+       
+    }
+    #deal-main {
+        font-size: 1.2em;
+        color: white;
+        padding-left: 10px;
+        /* background-color: #eb8921; */
+        padding-top: 5em;
+        
     }
 }
