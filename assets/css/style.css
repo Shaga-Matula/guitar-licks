@@ -59,10 +59,19 @@ a:active {
 }
 
 .main-logo {
-    font-family: Lily Script, sans-serif;
-    color: #eb8921;
-    font-weight: 400;
+    font-family: Lily Script One, sans-serif;
+    color: black;
+    font-weight: 600;
     font-size: 1.5em;
+
+}
+
+.main-logo2 {
+    font-family: Lily Script One, sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
 
 }
 
