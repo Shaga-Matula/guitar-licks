@@ -186,7 +186,7 @@ a:active {
     #sales-pitch p {
 
         font-family: Montserrat, sans-serif;
-        color: white;
+        color:#00FFFF;
         font-weight: 200;
         font-size: 1em;
         height: 100%;
@@ -196,7 +196,7 @@ a:active {
         padding-right: .5em;
         padding-bottom: 10px;
     }
-    #peddel-image {
+    #pedal-image {
         background-color: blue;
         background-image: url(../images/guitar-pedels.jpg);
         padding-top: 100px;    
@@ -231,18 +231,32 @@ a:active {
 
     #ethos {
         font-family: Montserrat, sans-serif;
-        color: white;
-        font-weight: 200;
+        color: whitesmoke;
+        font: weight 500px;
         font-size: 1em;
         height: 100%;
-        background-color: grey;
+        background-color: rgb(87, 85, 85);
         text-align: center;
         padding-left: .5em;
         padding-right: .5em;
         padding-bottom: 10px;
+        padding-top: 10px;
 
     }
 
-
+    #style-list {
+        list-style-type: disc;
+        font-family: Montserrat, sans-serif;
+        color: whitesmoke;
+        font: weight 500px;
+        font-size: 1em;
+        height: 100%;
+        background-color: rgb(87, 85, 85);
+        /* text-align: center; */
+        padding-left: 2em;
+        padding-right: .5em;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
 
 }
