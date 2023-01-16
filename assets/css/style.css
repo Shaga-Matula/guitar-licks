@@ -219,5 +219,20 @@ a:active {
         background-position: center;
     }
 
+    #ethos {
+        font-family: Montserrat, sans-serif;
+        color: white;
+        font-weight: 200;
+        font-size: 1em;
+        height: 100%;
+        background-color: grey;
+        text-align: center;
+        padding-left: .5em;
+        padding-right: .5em;
+        padding-bottom: 10px;
+
+    }
+
+
 
 }
