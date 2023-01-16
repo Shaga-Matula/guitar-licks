@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
 
 /* Main font chosen, need another font to complament Bebas Neue maybe Montserrat */
 /* set all margin and padding to 0 */
@@ -27,7 +28,7 @@ body {
     height: 75px;
     align-items: center;
     padding: 1em;
-    background-color: black;
+    background-color:#2e2f2f;
 }
 
 #menu-bar a {
@@ -58,7 +59,7 @@ a:active {
 }
 
 .main-logo {
-    font-family: Irish Grover, sans-serif;
+    font-family: Lily Script, sans-serif;
     color: #eb8921;
     font-weight: 400;
     font-size: 1.5em;
@@ -87,7 +88,7 @@ a:active {
         flex-direction: column;
         font-size: .8em;
         padding: 0 10px 20px 10px;
-        background-color: black;
+        background-color: grey;
     }
 
     #nav-bar li a {
