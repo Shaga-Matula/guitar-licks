@@ -194,5 +194,17 @@ a:active {
         background-repeat: no-repeat;
         background-position: center;
     }
+    /* Registory of Guitar Tutors banner\logo */
+    #rgt-logo {
+        background-color: white;
+        background-image: url(../images/RGT.jpg);
+        padding-top: 50px; 
+        padding-right: 10px;
+        padding-left: 100px;
+        
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
 }
