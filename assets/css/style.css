@@ -206,5 +206,18 @@ a:active {
         background-repeat: no-repeat;
         background-position: center;
     }
+    /* london college of music logo */
+    #lcm-logo {
+        background-color: grey;
+        background-image: url(../images/lcm.png);
+        padding-top: 50px; 
+        padding-right: 10px;
+        padding-left: 100px;
+        
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
 
 }
