@@ -139,8 +139,7 @@ a:active {
     }
 
 
-    }
-/* =============== portrate circle image and about me text */
+    /* =============== portrate circle image and about me text */
 
     #circle-back {
         background-color: grey;
@@ -186,5 +185,14 @@ a:active {
         padding-left: .5em;
         padding-right: .5em;
         padding-bottom: 10px;
+    }
+    #peddel-image {
+        background-color: blue;
+        background-image: url(../images/guitar-pedels.jpg);
+        padding-top: 100px;    
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
 }
