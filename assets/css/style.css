@@ -135,21 +135,31 @@ a:active {
         font-size: 1.2em;
         color: white;
         padding-left: 10px;
-         padding-top: 5em;
+        padding-top: 5em;
     }
 
 
     }
+/* =============== portrate circle image and about me text */
+
+    #circle-back {
+        background-color: grey;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
     #circle-outer {
-    display: flex;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
+        /* display: flex; */
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        border-radius: 50%;
+        margin: 0 auto;
+   
     }
 
     #circle-inner {
@@ -162,7 +172,7 @@ a:active {
         height: 100% ;
         width: 100%;
         border-radius: 50%;
-        /* object-fit: contain ; */
+        
     }
     #sales-pitch p {
 
@@ -175,5 +185,6 @@ a:active {
         text-align: center;
         padding-left: .5em;
         padding-right: .5em;
+        padding-bottom: 10px;
 
 }
