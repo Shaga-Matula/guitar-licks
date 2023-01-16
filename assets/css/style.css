@@ -115,44 +115,65 @@ a:active {
         font-weight: 400;
         padding-left: .5em;
         padding-top: 8%;
-        /* background-color: aqua; */
-        
+       
+
     }
 
     #main-image h2 {
         font-family: Irish Grover, sans-serif;
-        
         color: #f5ad28;
         font-size: 1.2em;
-        /* font-weight: 400; */
         text-align: center;
         color: white;
-        /* padding-right: 5%; */
         padding-top: 25%;
         padding-left: 25%;
-        padding-bottom:15%;
-        /* background-color: #21eb64; */
-        
-       
+        padding-bottom: 15%;
+
     }
+
     #deal-main {
         font-size: 1.2em;
         color: white;
         padding-left: 10px;
-        /* background-color: #eb8921; */
-        padding-top: 5em;        
+         padding-top: 5em;
+    }
+
+
+    }
+    #circle-outer {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    }
+
+    #circle-inner {
+        background-color: blue;
+        background-image: url(../images/picture_me.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-color: black;
+        height: 100% ;
+        width: 100%;
+        border-radius: 50%;
+        /* object-fit: contain ; */
     }
     #sales-pitch p {
-        
+
         font-family: Montserrat, sans-serif;
         color: white;
         font-weight: 200;
         font-size: 1em;
         height: 100%;
-        background-color: grey; 
+        background-color: grey;
         text-align: center;
         padding-left: .5em;
         padding-right: .5em;
-        /* S */
-    }
+
 }
