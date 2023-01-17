@@ -16,252 +16,228 @@ body {
     color: #2e2f2f;
 }
 
-/* set default font in h1 and h2 */
-
 /* ========This is the headder and logo section =========*/
 /* ===================================================== */
 
-/* menu bar css with flex */
-#menu-bar {
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-    height: 75px;
-    align-items: center;
-    padding: 1em;
-    background-color:#2e2f2f;
-    width:100vw;
-}
-
-#menu-bar a {
-    text-decoration: none;
-}
-
-/* give a links colour when active testing olnly for now */
-a:active {
-    background-color: rgb(122, 122, 92);
-}
 
 /* Horizoltal display for nav Icons */
-#nav-bar li  {
+#nav-bar li {
     display: inline-block;
     padding: 0 10px 0 0;
 
 }
-.footer-icon ul li {
-    display: inline-block;
-
-}
 
 /* clean up nav links & give some style */
+
 #nav-bar li a {
     text-decoration: none;
-    font-size: 1.2em;
     padding: 0 5px 0 5px;
     letter-spacing: 3px;
-    font-weight: 400;
-    color: #eb8921;
+    color: blue;
     transition: all 0.5s ease 0s;
-}
-
-.main-logo {
-    font-family: Lily Script One, sans-serif;
-    color: black;
-    font-weight: 600;
-    font-size: 1.5em;
-
-}
-
-.main-logo2 {
-    font-family: Lily Script One, sans-serif;
-    color: black;
+    font-size: 1.0em;
     font-weight: 400;
-    font-size: 1em;
-    text-align: center;
-
+    font-family: Bebas Neue, sans-serif;
+    color: black;
 }
-
-
 
 /* hightlight border of nav icons when hover over */
+/* ============================================== */
 #nav-bar li a:hover {
     box-shadow: 2px 2px grey;
-    border: 1px solid grey;
+    border: 1px solid black;
     border-radius: 4px;
     padding: 0 5px 0 5px;
     font-size: 1.2em;
+    color: white;
 }
 
+#nav-bar li a:active {
+    background-color: black;
+}
 
+#logo-g-licks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    font-size: .8em;
+    padding: 0 10px 20px 10px;
+    height: 75px;
+    align-items: center;
+    padding: 1em;
+    background-color: grey;
+    width: 100vw;
+}
 
- 
+#logo-g-licks a {
+    text-decoration: none;
+}
+
+#logo-g-licks a h1 {
+    font-family: Lily Script One, sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 2.0em;
+}
+
+#logo-g-licks a h2 {
+    font-family: Lily Script One, sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 10px;
+}
 
 /* header screen size less 600px */
 /* @media only screen and (max-width: 600px) { */
-    #menu-bar {
-        flex-direction: column;
-        font-size: .8em;
-        padding: 0 10px 20px 10px;
-        background-color: grey;
-    }
-
-    #nav-bar li a {
-        font-size: 1.0em;
-        font-weight: 400;
-        font-family: Bebas Neue, sans-serif;
-        color: white;
-    }
 
 
-    #main-image {
-        background-image: url(../images/guitar-head.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size:cover;
-        height: 450px;
-        width: 100vw;
-      
-    }
-  
-   
-    /* =============== portrate circle image and about me text */
+#main-image {
+    background-image: url(../images/guitar-head.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100vw;
 
-    #circle-back {
-        background-color: grey;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+}
 
 
-    #circle-outer {
-        /* display: flex; */
-        width: 100px;
-        height: 100px;
-        padding: 5px;
-        border-style: solid;
-        border-color: black;
-        border-width: 1px;
-        border-radius: 50%;
-        margin: 0 auto;
-   
-    }
+/* =============== portrate circle image and about me text */
 
-    #circle-inner {
-        background-color: blue;
-        background-image: url(../images/picture_me.jpeg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        border-color: black;
-        height: 100% ;
-        width: 100%;
-        border-radius: 50%;
-        
-    }
-    /* #sales-pitch p {
+#circle-back {
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
-        font-family: Montserrat, sans-serif;
-        color:  white;
-        font-weight: 200;
-        font-size: 1em;
-        height: 100%;
-        background-color: grey;
-        text-align: center;
-        padding-left: .5em;
-        padding-right: .5em;
-        padding-bottom: 10px;
-    } */
-    #pedal-image {
-        background-color: blue;
-        background-image: url(../images/guitar-pedels.jpg);
-        padding-top: 100px;    
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    /* Registory of Guitar Tutors banner\logo */
-    #rgt-logo {
-        background-color: white;
-        background-image: url(../images/RGT.jpg);
-        padding-top: 50px; 
-        padding-right: 10px;
-        padding-left: 100px;
-        
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    /* london college of music logo */
-    #lcm-logo {
-        background-color: grey;
-        background-image: url(../images/lcm.png);
-        padding-top: 50px; 
-        padding-right: 10px;
-        padding-left: 100px;
-        
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
 
-    #ethos, .our-address, #sales-pitch p {
-        font-family: Montserrat, sans-serif;
-        color: whitesmoke;
-        font: weight 500px;
-        font-size: 1em;
-        height: 100%;
-        background-color: rgb(87, 85, 85);
-        text-align: center;
-        padding-left: .5em;
-        padding-right: .5em;
-        padding-bottom: 10px;
-        padding-top: 10px;
+#circle-outer {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
 
-    }
+}
 
-    #style-list, #guitar-styles {
-        list-style-type: disc;
-        font-family: Montserrat, sans-serif;
-        color: whitesmoke;
-        font: weight 500px;
-        font-size: 1em;
-        height: 100%;
-        background-color: rgb(68, 67, 67);
-        padding-left: 2em;
-        padding-right: .5em;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        text-align: center;
-    }
-    #style-list {
-        text-align: left;
-    }
-    .testimon {
-        font-family: Montserrat, sans-serif;
-        color: whitesmoke;
-        font: weight 500px;
-        font-size: 1em;
-        height: 100%;
-        background-color: rgb(87, 85, 85);
-        text-align: center;
-        padding-left: .5em;
-        padding-right: .5em;
-        padding-bottom: 10px;
-        padding-top: 10px;
+#circle-inner {
+    background-color: blue;
+    background-image: url(../images/picture_me.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: black;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
 
-    }
-    
-    .footer-icons {
-        height: 40px;
-        text-align: center;
-        padding: 1em;
-        background-color:#2e2f2f;
-        
-    }
-    .footer-icons li {
-        display: inline;
-        font-size: 150%;
-        margin: 1%;
-        padding: 5%;
-    }
-    
+}
+
+#pedal-image {
+    background-color: blue;
+    background-image: url(../images/guitar-pedels.jpg);
+    padding-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Registory of Guitar Tutors banner\logo */
+#rgt-logo {
+    background-color: white;
+    background-image: url(../images/RGT.jpg);
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* london college of music logo */
+#lcm-logo {
+    background-color: grey;
+    background-image: url(../images/lcm.png);
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ethos,
+.our-address,
+#sales-pitch p {
+    font-family: Montserrat, sans-serif;
+    color: whitesmoke;
+    font: weight 500px;
+    font-size: 1em;
+    height: 100%;
+    background-color: rgb(87, 85, 85);
+    text-align: center;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+#style-list,
+#guitar-styles {
+    list-style-type: disc;
+    font-family: Montserrat, sans-serif;
+    color: whitesmoke;
+    font: weight 500px;
+    font-size: 1em;
+    height: 100%;
+    background-color: rgb(68, 67, 67);
+    padding-left: 2em;
+    padding-right: .5em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#style-list {
+    text-align: left;
+}
+
+.testimon {
+    font-family: Montserrat, sans-serif;
+    color: whitesmoke;
+    font: weight 500px;
+    font-size: 1em;
+    height: 100%;
+    background-color: rgb(87, 85, 85);
+    text-align: center;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.footer-icons {
+    height: 40px;
+    text-align: center;
+    padding: 1em;
+    background-color: #2e2f2f;
+}
+
+.footer-icons li {
+    display: inline;
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+}
+
+.footer-icon ul li {
+    display: inline-block;
+}
