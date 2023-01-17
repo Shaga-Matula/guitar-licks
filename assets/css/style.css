@@ -158,7 +158,7 @@ a:active {
         border-radius: 50%;
         
     }
-    #sales-pitch p {
+    /* #sales-pitch p {
 
         font-family: Montserrat, sans-serif;
         color:  white;
@@ -170,7 +170,7 @@ a:active {
         padding-left: .5em;
         padding-right: .5em;
         padding-bottom: 10px;
-    }
+    } */
     #pedal-image {
         background-color: blue;
         background-image: url(../images/guitar-pedels.jpg);
@@ -204,7 +204,7 @@ a:active {
         background-position: center;
     }
 
-    #ethos {
+    #ethos, .our-address, #sales-pitch p {
         font-family: Montserrat, sans-serif;
         color: whitesmoke;
         font: weight 500px;
@@ -236,7 +236,7 @@ a:active {
     #style-list {
         text-align: left;
     }
-    h3, .testimon, .our-address > p  {
+    .testimon {
         font-family: Montserrat, sans-serif;
         color: whitesmoke;
         font: weight 500px;
@@ -252,7 +252,7 @@ a:active {
     }
     
     .footer-icons {
-        height: 75px;
+        height: 40px;
         text-align: center;
         padding: 1em;
         background-color:#2e2f2f;
