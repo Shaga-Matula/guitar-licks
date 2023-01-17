@@ -244,19 +244,35 @@ a:active {
 
     }
 
-    #style-list {
+    #style-list, #guitar-styles {
         list-style-type: disc;
         font-family: Montserrat, sans-serif;
         color: whitesmoke;
         font: weight 500px;
         font-size: 1em;
         height: 100%;
-        background-color: rgb(87, 85, 85);
-        /* text-align: center; */
+        background-color: rgb(68, 67, 67);
         padding-left: 2em;
         padding-right: .5em;
         padding-bottom: 10px;
         padding-top: 10px;
+        text-align: center;
     }
+    #style-list {
+        text-align: left;
+    }
+    h2, h3 {
+        font-family: Montserrat, sans-serif;
+        color: whitesmoke;
+        font: weight 500px;
+        font-size: 1em;
+        height: 100%;
+        background-color: rgb(87, 85, 85);
+        text-align: center;
+        padding-left: .5em;
+        padding-right: .5em;
+        padding-bottom: 10px;
+        padding-top: 10px;
 
+    }
 }
