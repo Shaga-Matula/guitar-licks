@@ -91,6 +91,9 @@ a:active {
 }
 
 
+
+ 
+
 /* header screen size less 600px */
 @media only screen and (max-width: 600px) {
     #menu-bar {
@@ -261,7 +264,7 @@ a:active {
     #style-list {
         text-align: left;
     }
-    h2, h3 {
+    h2, h3, .testimon {
         font-family: Montserrat, sans-serif;
         color: whitesmoke;
         font: weight 500px;
