@@ -12,7 +12,7 @@
 
 /* Set default font to body */
 body {
-    font-family: Irish Grover, sans-serif;
+    font-family: Montserrat, sans-serif;
     color: #2e2f2f;
 }
 
@@ -24,11 +24,13 @@ body {
 /* menu bar css with flex */
 #menu-bar {
     display: flex;
+    position: fixed;
     justify-content: space-between;
     height: 75px;
     align-items: center;
     padding: 1em;
     background-color:#2e2f2f;
+    width:100vw;
 }
 
 #menu-bar a {
@@ -112,18 +114,15 @@ a:active {
 
 
     #main-image {
-        background-image: url(../images/hero-guitar.jpg);
+        background-image: url(../images/guitar-head.jpg);
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size:cover;
         height: 450px;
-        width: 100%;
+        width: 100vw;
       
     }
-    #be-t-music p{
-        color:red;
-    }
-
+  
    
     /* =============== portrate circle image and about me text */
 
@@ -237,7 +236,7 @@ a:active {
     #style-list {
         text-align: left;
     }
-    h3, .testimon {
+    h3, .testimon, .our-address > p  {
         font-family: Montserrat, sans-serif;
         color: whitesmoke;
         font: weight 500px;
@@ -251,13 +250,18 @@ a:active {
         padding-top: 10px;
 
     }
-    .social-networks  {
-
-        display: flex;
-        justify-content: space-between;
+    
+    .footer-icons {
         height: 75px;
-        align-items: center;
+        text-align: center;
         padding: 1em;
         background-color:#2e2f2f;
+        
     }
-/* S */
+    .footer-icons li {
+        display: inline;
+        font-size: 150%;
+        margin: 1%;
+        padding: 5%;
+    }
+    
