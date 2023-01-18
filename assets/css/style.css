@@ -242,36 +242,33 @@ body {
     display: inline-block;
 }
 
+/* ========== Course page syllibus cards */
+
+.card-container {
+    padding-top: 20px;
+    display: grid;
+    justify-items: center;
+    /* background-color: #73AD21; */
+    align-items: center;
+    line-height: 2em;
+}
+
+
 .card {
     background-color: grey;
     width: 90%;
-    border-radius: 10%;
+    border-radius: 5%;
     text-align: center;
     border: 3px solid #73AD21;
-    height: 150px;
+    height: auto;
     width: 80%;
 
-
-
-
 }
 
-.card-container {
-    display: grid;
-    justify-items: center;
-    padding-top: 20px;
-    background-color: #73AD21;
-    align-items: center;
 
-
+.card-list {
+    list-style-position: inside;
+    text-align: left;
+    padding-left: 10%;
 }
 
-/* 
-.card-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color:black;
-    align-items: center;
-
-} */
