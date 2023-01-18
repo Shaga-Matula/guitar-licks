@@ -315,7 +315,8 @@ body {
 }
 
 .map-area p {
-    color: black;
+    font-weight: 600;
+    color:white;
     margin: 20px;
 }
 
