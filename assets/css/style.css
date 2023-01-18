@@ -15,9 +15,9 @@
 body {
     font-family: Montserrat, sans-serif;
     color: #2e2f2f;
-    
-    
-    
+
+
+
 }
 
 /* ========This is the headder and logo section =========*/
@@ -69,7 +69,6 @@ body {
     padding: 0 10px 20px 10px;
     height: 75px;
     align-items: center;
-    padding: 1em;
     background-color: grey;
     width: 100vw;
 }
@@ -250,6 +249,7 @@ body {
 
 .card-container {
     padding-top: 20px;
+    padding-bottom: 20px;
     display: grid;
     grid-auto-flow: row;
     justify-items: center;
@@ -284,9 +284,23 @@ body {
     padding-left: 10%;
     padding-bottom: 10%;
 }
+
 .card-back-page {
     background-image: url(../images/door-guitar.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* ==============Button liknk from card to sign me up ==================*/
+.btn {
+    color: white;
+    border-radius: 10px;
+    /* border-style: double; */
+    border-color: grey;
+    background-color: rgb(68, 67, 67, .8);
+    font-family: poppins;
+    border-style: solid;
+    padding: 5px;
+
 }
