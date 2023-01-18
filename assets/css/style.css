@@ -296,11 +296,9 @@ body {
 .btn {
     color: white;
     border-radius: 10px;
-    /* border-style: double; */
     border-color: grey;
     background-color: rgb(68, 67, 67, .8);
     font-family: poppins;
     border-style: solid;
     padding: 5px;
-
 }
