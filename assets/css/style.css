@@ -241,3 +241,37 @@ body {
 .footer-icon ul li {
     display: inline-block;
 }
+
+.card {
+    background-color: grey;
+    width: 90%;
+    border-radius: 10%;
+    text-align: center;
+    border: 3px solid #73AD21;
+    height: 150px;
+    width: 80%;
+
+
+
+
+}
+
+.card-container {
+    display: grid;
+    justify-items: center;
+    padding-top: 20px;
+    background-color: #73AD21;
+    align-items: center;
+
+
+}
+
+/* 
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:black;
+    align-items: center;
+
+} */
