@@ -8,8 +8,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    max-width: 1920px;
-}
+    }
 
 /* Set default font to body */
 body {
@@ -301,4 +300,20 @@ body {
     font-family: poppins;
     border-style: solid;
     padding: 5px;
+}
+
+.map-area {
+    height:auto;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    background-color: #2e2f2f;
+    border:solid black;
+}
+
+.map-area p {
+color:black;
 }
