@@ -248,7 +248,7 @@ body {
     padding-top: 20px;
     display: grid;
     justify-items: center;
-    /* background-color: #73AD21; */
+    color: white;
     align-items: center;
     line-height: 2em;
 }
@@ -265,10 +265,12 @@ body {
 
 }
 
+/* .content {
+    background-color: grey;
+} */
 
 .card-list {
     list-style-position: inside;
     text-align: left;
     padding-left: 10%;
 }
-
