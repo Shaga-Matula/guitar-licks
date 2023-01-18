@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    }
+}
 
 /* Set default font to body */
 body {
@@ -302,18 +302,26 @@ body {
     padding: 5px;
 }
 
+/* map segment of contacts page */
 .map-area {
-    height:auto;
-    width:100%;
-    display:flex;
+    width: auto;
+    height: auto;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
-    background-color: #2e2f2f;
-    border:solid black;
+    background-color: grey;
+    border: solid black;
 }
 
 .map-area p {
-color:black;
+    color: black;
+    margin: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+   filter:invert(100%);
+       
 }
