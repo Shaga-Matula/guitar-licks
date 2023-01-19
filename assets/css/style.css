@@ -295,7 +295,7 @@ body {
 }
 
 /* ============ contacts form =========== */
-.what-level {
+ .what-level {
     color: black;
     padding-bottom: 1em;
  }
@@ -314,8 +314,13 @@ input[type="radio"]:first-of-type {
     margin-left: 0em;
 }
  input[type="radio"] + label {
-    display: inline-block;
+    display:inline-flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    vertical-align: center;
 }
+
 
 input[type="submit"] {
     padding: .5em ;
@@ -333,7 +338,7 @@ fieldset {
     padding: 1em 2em;
     border: solid black;
     border-radius: 4px;
-    min-width: 200px;
+    min-width: 300px;
     background-color: rgb(68, 67, 67, .8);
     width: 40%;
 }
@@ -371,7 +376,7 @@ textarea {
     padding: .5em;
     border: solid 1px black;
 }
-
+ 
 
 /* map segment of contacts page */
 .map-area {
