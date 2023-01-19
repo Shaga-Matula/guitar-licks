@@ -300,7 +300,22 @@ body {
 /* ============ contacts form =========== */
 .what-level {
     color: black;
- 
+ }
+ .what-level p {
+    color: black;
+    font-weight: 600;
+    margin-top: 1em;
+ }
+
+input[type="radio"]{
+    margin-left: 1em;
+    margin-right: 0em;
+}
+input[type="radio"]:first-of-type {
+    margin-left: 0em;
+}
+ input[type="radio"] + label {
+    display: inline-block;
 }
 
 fieldset {
@@ -342,7 +357,6 @@ textarea {
     background-color: rgb(250, 240, 240);
     min-height: 8em;
     min-width: 100%;
-    max-width: 40%;
     padding: .5em;
     border: solid 1px black;
 }
