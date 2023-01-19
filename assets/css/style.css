@@ -4,14 +4,19 @@
 
 /* Main font chosen, need another font to complament Bebas Neue maybe Montserrat */
 /* set all margin and padding to 0 */
+
 * {
     margin: 0;
     padding: 0;
     border: none;
+    /* max-width: 1020px;
+    margin: auto;
+    background-color: grey; */
 }
 
 /* Set default font to body */
 body {
+    
     font-family: Montserrat, sans-serif;
     color: #2e2f2f;
 }
@@ -65,7 +70,7 @@ body {
     height: 75px;
     align-items: center;
     background-color: grey;
-    width: 100vw;
+   
 }
 
 #logo-g-licks a {
@@ -296,11 +301,11 @@ body {
 
 /* ============ contacts form =========== */
  .what-level {
-    color: black;
+    color: white;
     padding-bottom: 1em;
  }
  .what-level p {
-    color: black;
+    color: white;
     font-weight: 600;
     margin-top: 1em;
  }
@@ -326,13 +331,14 @@ input[type="radio"]:first-of-type {
     padding: .25em ;
     border-radius: 6%;
     font-family: lato, sans-serif;
-    color: black;
+    color: white;
     background-color: #333;
     font-size: 1em;
 }
 
 fieldset, .our-address-back {
     margin: auto;
+    color: white;
     padding: 1em 2em;
     border: solid black;
     border-radius: 4px;
@@ -340,9 +346,12 @@ fieldset, .our-address-back {
     background-color: rgb(68, 67, 67, .8);
     width: 40%;
 }
-
+.our-address-back {
+    line-height: 6em;
+    text-align: center;
+}
 fieldset label {
-    color: black;
+    color: white;
     font-weight: 600;
 }
 
@@ -350,7 +359,7 @@ legend {
     font-family: lato, sans-serif;
     font-size: 1.2em;
     padding: 0 .5em;
-    color: black;
+    color: white;
 }
 
 label {
