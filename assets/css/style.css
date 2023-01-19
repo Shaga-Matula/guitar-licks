@@ -286,21 +286,35 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* ==============Button link from card to sign me up ==================*/
+.btn {
+    color: white;
+    border-radius: 10px;
+    border-color: grey;
+    background-color: rgb(68, 67, 67, .8);
+    font-family: poppins;
+    border-style: solid;
+    padding: 5px;
+}
 
 /* ============ contacts form =========== */
 .what-level {
     color: black;
-    background-color: aliceblue;
+ 
 }
 
 fieldset {
     padding: 1em 2em;
     border: solid black;
     min-width: 200px;
-
     height: 400px;
     border-radius: 4px;
     background-color: grey;
+}
+
+fieldset label {
+    color: black;
+    font-weight: 600;
 }
 
 legend {
@@ -316,31 +330,23 @@ label {
 }
 
 input {
-    border: solid 1px black;
-}
-
-input[type="email"], input[type="text"] {
-    width: 15em;
-}
-
-textarea {
-    background-color: blueviolet;
-    min-height: 8em;
-    min-width: 100%x;
     padding: .5em;
     border: solid 1px black;
 }
 
-/* ==============Button link from card to sign me up ==================*/
-.btn {
-    color: white;
-    border-radius: 10px;
-    border-color: grey;
-    background-color: rgb(68, 67, 67, .8);
-    font-family: poppins;
-    border-style: solid;
-    padding: 5px;
+input[type="email"], input[type="text"] {
+    width: 18em;
 }
+
+textarea {
+    background-color: rgb(250, 240, 240);
+    min-height: 8em;
+    min-width: 100%;
+    max-width: 40%;
+    padding: .5em;
+    border: solid 1px black;
+}
+
 
 /* map segment of contacts page */
 .map-area {
