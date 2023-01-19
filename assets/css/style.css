@@ -14,9 +14,6 @@
 body {
     font-family: Montserrat, sans-serif;
     color: #2e2f2f;
-
-
-
 }
 
 /* ========This is the headder and logo section =========*/
@@ -63,7 +60,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* position: fixed; */
     font-size: .8em;
     padding: 0 10px 20px 10px;
     height: 75px;
@@ -291,6 +287,12 @@ body {
     background-size: cover;
 }
 
+.what-level {
+    color:black;
+    background-color: aliceblue;
+}
+
+
 /* ==============Button liknk from card to sign me up ==================*/
 .btn {
     color: white;
@@ -324,5 +326,4 @@ iframe {
     width: 100%;
     height: auto;
    filter:invert(100%);
-       
 }
