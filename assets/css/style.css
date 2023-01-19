@@ -314,12 +314,12 @@ input[type="radio"]:first-of-type {
     margin-left: 0em;
 }
  input[type="radio"] + label {
-    display:inline-flex;
+    display: inline-block;
     align-items: center;
     flex-direction: column;
     cursor: pointer;
-    vertical-align: center;
-}
+    vertical-align: bottom;
+ }
 
 
 input[type="submit"] {
