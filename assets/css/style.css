@@ -38,7 +38,6 @@ body {
     text-decoration: none;
     padding: 0 5px 0 5px;
     letter-spacing: 3px;
-    color: blue;
     transition: all 0.5s ease 0s;
     font-size: 1.0em;
     font-weight: 400;
@@ -79,7 +78,7 @@ body {
 
 #logo-g-licks a h1 {
     font-family: Lily Script One, sans-serif;
-    color: black;
+    color:black;  
     font-weight: 600;
     font-size: 2.0em;
 }
@@ -104,9 +103,39 @@ body {
     background-size: cover;
     height: 100%;
     width: 100vw;
-    
-
 }
+#main-land  {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding:3%;
+}
+#main-title-1 {
+    font-family: Lily Script One, sans-serif;
+    color:white;
+    font-size: 5em;
+    align-self: flex-start; 
+    text-align: center;
+}
+#main-title-2{
+    font-family: Lily Script One, sans-serif;
+    color:white;
+    font-size: 4em;
+    align-self:center;
+    text-align: center;
+}
+#main-title-3 {
+    font-family: Lily Script One, sans-serif;
+    color:white;
+    font-size: 3em;
+    align-self: flex-end;
+    text-align: center;
+    
+}
+
+
 
 
 /* =============== portrate circle image and about me text */
@@ -406,4 +435,11 @@ iframe {
     width: 100%;
     height: auto;
     filter: invert(100%);
+}
+@media only screen and (max-width: 600px) {
+    #main-title-1, #main-title-3 {
+        align-self: center;
+        color: red;
+    }
+
 }
