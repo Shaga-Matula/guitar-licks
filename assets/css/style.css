@@ -31,32 +31,36 @@ body {
     display: flex;
     justify-content:space-between;
     align-items: flex-end;
+    flex-wrap: wrap;
+    background-color: grey;
 
 }
 
 #nav-bar {
-    background-color: #2e2f2f;
-    padding: auto;
-    /* align-content: flex-end; */
+    background-color: grey;
+    padding-left: 20px;
+
+
     
 }
 #nav-bar li {
     display: inline-block;
-    padding: 0 10px 0 0;
-
+    padding: 0px 10px 0 10px;
+    background-color: grey;
+   
 }
 
 /* clean up nav links & give some style */
 
 #nav-bar li a {
     text-decoration: none;
-    padding: 0 5px 0 5px;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     transition: all 0.5s ease 0s;
-    font-size: 1.0em;
-    font-weight: 400;
+    font-size: 1.2em;
+    font-weight: 600;
     font-family: Bebas Neue, sans-serif;
-    color: black;
+    color: white ; 
+   
 }
 
 /* hightlight border of nav icons when hover over */
@@ -67,7 +71,7 @@ body {
     border-radius: 4px;
     padding: 0 5px 0 5px;
     font-size: 1.2em;
-    color: grey;
+    color: black;
 }
 
 #nav-bar li a:active {
