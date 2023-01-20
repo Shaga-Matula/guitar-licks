@@ -60,7 +60,7 @@ body {
     background-color: black;
 }
 
-#logo-g-licks {
+#logo {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -72,18 +72,18 @@ body {
    
 }
 
-#logo-g-licks a {
+#logo a {
     text-decoration: none;
 }
 
-#logo-g-licks a h1 {
+#logo a h1 {
     font-family: Lily Script One, sans-serif;
     color:black;  
     font-weight: 600;
     font-size: 2.0em;
 }
 
-#logo-g-licks a h2 {
+#logo a h2 {
     font-family: Lily Script One, sans-serif;
     color: black;
     font-weight: 400;
