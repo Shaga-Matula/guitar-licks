@@ -26,6 +26,20 @@ body {
 
 
 /* Horizoltal display for nav Icons */
+
+#head-area{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+
+}
+
+#nav-bar {
+    background-color: #2e2f2f;
+    padding: auto;
+    /* align-content: flex-end; */
+    
+}
 #nav-bar li {
     display: inline-block;
     padding: 0 10px 0 0;
@@ -53,11 +67,11 @@ body {
     border-radius: 4px;
     padding: 0 5px 0 5px;
     font-size: 1.2em;
-    color: white;
+    color: grey;
 }
 
 #nav-bar li a:active {
-    background-color: black;
+    background-color: white;
 }
 
 #logo {
