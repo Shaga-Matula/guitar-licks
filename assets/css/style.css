@@ -16,7 +16,7 @@
 
 /* Set default font to body */
 body {
-    
+
     font-family: Montserrat, sans-serif;
     color: #2e2f2f;
 }
@@ -27,12 +27,12 @@ body {
 
 /* Horizoltal display for nav Icons */
 
-#head-area{
+#head-area {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
-    background-color: grey;
+    background-color:grey;
 
 }
 
@@ -41,13 +41,14 @@ body {
     padding-left: 20px;
 
 
-    
+
 }
+
 #nav-bar li {
     display: inline-block;
     padding: 0px 10px 0 10px;
     background-color: grey;
-   
+
 }
 
 /* clean up nav links & give some style */
@@ -59,8 +60,8 @@ body {
     font-size: 1.2em;
     font-weight: 600;
     font-family: Bebas Neue, sans-serif;
-    color: white ; 
-   
+    color: white;
+
 }
 
 /* hightlight border of nav icons when hover over */
@@ -87,7 +88,7 @@ body {
     height: 75px;
     align-items: center;
     background-color: grey;
-   
+
 }
 
 #logo a {
@@ -96,7 +97,7 @@ body {
 
 #logo a h1 {
     font-family: Lily Script One, sans-serif;
-    color:black;  
+    color: black;
     font-weight: 600;
     font-size: 2.0em;
 }
@@ -122,37 +123,42 @@ body {
     height: 100%;
     width: 100vw;
 }
-#main-land  {
-    display:flex;
+
+#main-land {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    padding:3%;
+    padding: 3%;
 }
+
 #main-title-1 {
     font-family: Lily Script One, sans-serif;
-    color:white;
+    color: white;
     font-size: 4.5em;
-    align-self: flex-start; 
+    align-self: flex-start;
     text-align: center;
 }
-#main-title-2{
+
+#main-title-2 {
     font-family: Lily Script One, sans-serif;
-    color:white;
+    color: white;
     font-size: 3em;
-    align-self:center;
+    align-self: center;
     text-align: center;
     margin-bottom: 1em;
 }
-#main-title-3, a {
+
+#main-title-3,
+a {
     font-family: Lily Script One, sans-serif;
-    color:white;
+    color: white;
     font-size: 1.5em;
     align-self: flex-end;
     text-align: center;
     text-decoration: none;
-    
+
 }
 
 
@@ -337,6 +343,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* ==============Button link from card to sign me up ==================*/
 .btn {
     color: white;
@@ -349,35 +356,39 @@ body {
 }
 
 /* ============ contacts form =========== */
- .what-level {
+.what-level {
     color: white;
     padding-bottom: 1em;
- }
- .what-level p {
+}
+
+.what-level p {
     color: white;
     font-weight: 600;
     margin-top: 1em;
- }
+}
 
-input[type="radio"]{
+input[type="radio"] {
     margin-left: 1em;
     margin-right: 0em;
     vertical-align: middle;
 }
+
 /*  no margin on first one */
 input[type="radio"]:first-of-type {
     margin-left: 0em;
 }
- input[type="radio"] + label {
+
+input[type="radio"]+label {
     display: inline-flex;
     align-items: center;
- }
- .radio-list {
-    list-style: none;
- }
+}
 
- input[type="submit"] {
-    padding: .25em ;
+.radio-list {
+    list-style: none;
+}
+
+input[type="submit"] {
+    padding: .25em;
     border-radius: 6%;
     font-family: lato, sans-serif;
     color: white;
@@ -385,7 +396,8 @@ input[type="radio"]:first-of-type {
     font-size: 1em;
 }
 
-fieldset, .our-address-back {
+fieldset,
+.our-address-back {
     margin: auto;
     color: white;
     padding: 1em 2em;
@@ -395,10 +407,12 @@ fieldset, .our-address-back {
     background-color: rgb(68, 67, 67, .8);
     width: 40%;
 }
+
 .our-address-back {
     line-height: 6em;
     text-align: center;
 }
+
 fieldset label {
     color: white;
     font-weight: 600;
@@ -421,7 +435,8 @@ input {
     border: solid 1px black;
 }
 
-input[type="email"], input[type="text"] {
+input[type="email"],
+input[type="text"] {
     width: 18em;
 }
 
@@ -432,7 +447,7 @@ textarea {
     padding: .5em;
     border: solid .5px black;
 }
- 
+
 /* map segment of contacts page */
 .map-area {
     width: auto;
@@ -456,10 +471,18 @@ iframe {
     height: auto;
     filter: invert(100%);
 }
+
 @media only screen and (max-width: 600px) {
-    #main-title-1, #main-title-3 {
+
+    #main-title-1,
+    #main-title-3 {
         align-self: center;
         color: red;
     }
 
+    #head-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
