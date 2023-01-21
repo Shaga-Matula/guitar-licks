@@ -14,7 +14,7 @@
 
 body {
     max-width: 1200px;
-margin: auto;
+    margin: auto;
 }
 /* Set default font to body */
 body {
@@ -170,7 +170,7 @@ a {
 /* =============== portrate circle image and about me text */
 
 #circle-back {
-    background-color: grey;
+    background-color: blue;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -203,7 +203,7 @@ a {
 }
 
 #pedal-image {
-    background-color: blue;
+    background-color: grey;
     background-image: url(../images/guitar-pedels.jpg);
     padding-top: 100px;
     background-size: cover;
@@ -479,9 +479,9 @@ iframe {
 @media only screen and (max-width: 600px) {
 
     #main-title-1,
-    #main-title-3 {
+    #main-title-3 a {
         align-self: center;
-        color: red;
+        color: blue;
     }
 
     #head-area {
@@ -489,5 +489,16 @@ iframe {
         flex-direction: column;
         align-items: center;
     }
-
 }
+    @media only screen and (min-width: 800px) {
+        #circle-back {
+        background-color: green;
+        } 
+/* 
+        .block1 {
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        } */
+        
+    }
