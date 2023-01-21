@@ -9,11 +9,13 @@
     margin: 0;
     padding: 0;
     border: none;
-    /* max-width: 1020px;
-    margin: auto;
-    background-color: grey; */
+  
 }
 
+body {
+    max-width: 1200px;
+margin: auto;
+}
 /* Set default font to body */
 body {
 
@@ -32,7 +34,7 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
-    background-color:grey;
+    background-color: grey;
 
 }
 
@@ -58,9 +60,9 @@ body {
     letter-spacing: 4px;
     transition: all 0.5s ease 0s;
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: 400;
     font-family: Bebas Neue, sans-serif;
-    color: white;
+    color: black;
 
 }
 
@@ -71,7 +73,7 @@ body {
     border: 1px solid black;
     border-radius: 4px;
     padding: 0 5px 0 5px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: black;
 }
 
@@ -115,13 +117,14 @@ body {
 /* @media only screen and (max-width: 600px) { */
 
 
-#main-image {
+.main-image {
     background-image: url(../images/b-w-guitar.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 100vw;
+    
+    
 }
 
 #main-land {
@@ -136,7 +139,7 @@ body {
 #main-title-1 {
     font-family: Lily Script One, sans-serif;
     color: teal;
-    font-size: 4.5em;
+    font-size: 3em;
     align-self: flex-start;
     text-align: center;
 }
@@ -144,7 +147,7 @@ body {
 #main-title-2 {
     font-family: Lily Script One, sans-serif;
     color: teal;
-    font-size: 3em;
+    font-size: 2em;
     align-self: center;
     text-align: center;
     margin-bottom: 1em;
@@ -190,7 +193,7 @@ a {
     background-image: url(../images/Gl-icon.jpg);
     background-size: 150%;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     border-color: black;
     border-width: 4px;
     height: 100%;
@@ -486,4 +489,5 @@ iframe {
         flex-direction: column;
         align-items: center;
     }
+
 }
