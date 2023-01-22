@@ -240,7 +240,7 @@ a {
 #sales-pitch p {
     font-family: Montserrat, sans-serif;
     color: whitesmoke;
-    font: weight 500px;
+    font-weight: 500;
     font-size: 1em;
     height: 100%;
     background-color: rgb(87, 85, 85);
@@ -476,7 +476,7 @@ iframe {
     filter: invert(100%);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 610px) {
 
     #main-title-1,
     #main-title-3 a {
@@ -491,14 +491,24 @@ iframe {
     }
 }
     @media only screen and (min-width: 800px) {
+    
         #circle-back {
         background-color: green;
+        }
+       
+        .grid-span-2 {
+            grid-column: span 2;
+
+        }
+        .grid-col-span-3{
+            grid-column: span 3;
+
         } 
-/* 
-        .block1 {
-            display:flex;
-            flex-direction: column;
-            align-items: center;
-        } */
-        
+        .grid-1 {
+            display: grid;
+            gap: 1rem;
+            /* for testing */
+            /* margin-bottom: 1rem; */
+            grid-template-columns: 1fr 1fr 1fr;
+        }
     }
