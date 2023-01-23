@@ -165,16 +165,20 @@ a {
 
 }
 
-
+.line-break {
+    height:2px;
+    background-color: grey;
+    width:100%;
+}
 
 
 /* =============== portrate circle image and about me text */
 
 #circle-back {
-    background-color: grey;
+    background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-}
+ }
 
 
 #circle-outer {
@@ -230,7 +234,7 @@ a {
 
 /* london college of music logo */
 #lcm-logo {
-    background-color: grey;
+    background-color: white;
     background-image: url(../images/lcm.png);
     padding-top: 50px;
     padding-right: 10px;
@@ -246,11 +250,11 @@ a {
 .our-address,
 #sales-pitch p {
     font-family: Montserrat, sans-serif;
-    color: whitesmoke;
+    color: black;
     font-weight: 500;
     font-size: 1em;
     height: 100%;
-    background-color: rgb(87, 85, 85);
+    background-color: white;
     text-align: center;
     padding-left: .5em;
     padding-right: .5em;
@@ -529,6 +533,6 @@ iframe {
         height: 100%;
         display: flex;
         flex-direction: column;
-        border: solid 2px black;
+        
     }
 }
