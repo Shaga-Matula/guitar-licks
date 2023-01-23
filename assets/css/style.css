@@ -219,7 +219,7 @@ a {
   
 }
 
-/* Registory of Guitar Tutors banner\logo */
+/*================= Registory of Guitar Tutors banner\logo ==============*/
 #rgt-logo {
     background-color: white;
     background-image: url(../images/RGT.jpg);
@@ -233,13 +233,14 @@ a {
     height: 33%;
 }
 
-/* london college of music logo */
+/*============  london college of music logo ===============*/
 #lcm-logo {
     background-color: white;
     background-image: url(../images/lcm.png);
     padding-top: 50px;
     padding-right: 10px;
     padding-left: 10px;
+    
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -261,11 +262,7 @@ a {
     height: auto;
     background-color:blue;
    
-   
-   
-    
-
-}
+   }
 
 
 #ethos {
@@ -309,11 +306,13 @@ a {
 }
 
 
+/* =============== testimonial ============ */
+
 
 
 .testi-pat-hof, .testi-april-r, .testi-don-J{
   
-
+        
     font-weight: 900;
     font-size: 1em;
     height: auto;
@@ -333,29 +332,21 @@ a {
 }
 
 
-.our-address {
+.our-address, .our-address h2 a {
     font-family: Montserrat, sans-serif;
     color: black;
-    font-weight: 500;
-    font-size: 1em;
-    height: 100%;
-    background-color: grey;
+    font-weight: 300;
+    font-size: .8em;
+    height: auto;
     text-align: center;
-    padding-left: .5em;
-    padding-right: .5em;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    align-items: center;
+    line-height: 2em;
+
 
 }
 
 
-.our-address h2 a{
-    font-family: Lily Script One, sans-serif;
-    font-size: 1em;
-    color: black;
-    font-weight: 200;
 
-}
 
 .footer-icons {
     height: 40px;
@@ -522,7 +513,7 @@ textarea {
     border: solid .5px black;
 }
 
-/* map segment of contacts page */
+/* ============== map segment of contacts page ============ */
 .map-area {
     width: auto;
     height: auto;
@@ -545,7 +536,7 @@ iframe {
     height: auto;
     filter: invert(100%);
 }
-
+/* =================== Smart Phones ================================== */
 @media only screen and (max-width: 610px) {
 
     #main-title-1,
@@ -559,8 +550,21 @@ iframe {
         flex-direction: column;
         align-items: center;
     }
-}
 
+    
+#style-list {
+    padding-bottom: 10px;
+    
+}
+/* .testimonial-bck-img {
+    background-image: url(../images/croud-music.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+}
+/* ==================== Tablets  ====================================== */
 @media only screen and (min-width: 800px) {
     #pedal-image {
         margin: 10px;
