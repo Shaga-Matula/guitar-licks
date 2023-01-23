@@ -139,7 +139,7 @@ body {
 
 #main-title-1 {
     font-family: Lily Script One, sans-serif;
-    color: teal;
+    color: white;
     font-size: 3em;
     align-self: flex-start;
     text-align: center;
@@ -147,7 +147,7 @@ body {
 
 #main-title-2 {
     font-family: Lily Script One, sans-serif;
-    color: teal;
+    color: white;
     font-size: 2em;
     align-self: center;
     text-align: center;
@@ -157,7 +157,7 @@ body {
 #main-title-3,
 a {
     font-family: Lily Script One, sans-serif;
-    color: teal;
+    color: white;
     font-size: 1.5em;
     align-self: flex-end;
     text-align: center;
@@ -286,15 +286,15 @@ a {
 #ethos {
     font-family: Montserrat, sans-serif;
     color: black;
-    font-weight: 500;
+    font-weight: 900;
     font-size: 1em;
     height: 100%;
-    background-color: blue;
+   
     text-align: center;
-    /* padding-left: .5em;
-    padding-right: .5em;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 10px;
-    padding-top: 10px; */
+    padding-top: 10px;
 
 }
 
@@ -302,10 +302,10 @@ a {
     list-style-type: disc;
     font-family: Montserrat, sans-serif;
     color: rgb(36, 15, 85);
-    font: weight 500px;
+    font: weight 900;
     font-size: 1em;
     height: 100%;
-    background-color: red;
+   
     padding-left: 2em;
     padding-right: .5em;
     padding-bottom: 10px;
@@ -319,10 +319,10 @@ a {
     list-style-type: disc;
     font-family: Montserrat, sans-serif;
     color: black;
-    font: weight 500px;
+    font: weight 900px;
     font-size: 1em;
     height: 100%;
-    background-color: red;
+  
     padding-left: 2em;
     padding-right: .5em;
     padding-bottom: 10px;
@@ -538,7 +538,7 @@ iframe {
     #main-title-1,
     #main-title-3 a {
         align-self: center;
-        color: blue;
+       
     }
 
     #head-area {
@@ -577,10 +577,10 @@ iframe {
         order: 1;
     }
 
-    .grid-item-2 {
+    /* .grid-item-2 {
         border-radius: 25%;
         order: 3;
-    }
+    } */
 
     .grid-item-3 {
         order: 2;
@@ -596,5 +596,6 @@ iframe {
     }
     #guitar-styles {
         width: 100%;
+        padding: 3%;
     }
 }
