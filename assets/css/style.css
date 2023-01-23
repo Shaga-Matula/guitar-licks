@@ -119,7 +119,7 @@ body {
 
 
 .main-image {
-    background-image: url(../images/b-w-guitar.jpg);
+    background-image: url(../images/guitar-head.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -216,8 +216,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: auto;
-    height: 33%;
+  
 }
 
 /* Registory of Guitar Tutors banner\logo */
@@ -269,20 +268,6 @@ a {
 }
 
 
-.our-address {
-    font-family: Montserrat, sans-serif;
-    color: black;
-    font-weight: 500;
-    font-size: 1em;
-    height: 100%;
-    background-color: white;
-    text-align: center;
-    padding-left: .5em;
-    padding-right: .5em;
-    padding-bottom: 10px;
-    padding-top: 10px;
-
-}
 #ethos {
     font-family: Montserrat, sans-serif;
     color: black;
@@ -332,19 +317,44 @@ a {
     font-weight: 900;
     font-size: 1em;
     height: auto;
-    padding: 10px 10px 10px 10px;
+    padding: 15px 10px 10px 10px;
     text-align: center;
    
   
 }
 
 
-
+/* center testomial header */
 .cent-test {
     padding-top: 10px;
     text-align: center;
     font-size: 1.5em;
     align-items: center;
+}
+
+
+.our-address {
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1em;
+    height: 100%;
+    background-color: grey;
+    text-align: center;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+
+.our-address h2 a{
+    font-family: Lily Script One, sans-serif;
+    font-size: 1em;
+    color: black;
+    font-weight: 200;
+
 }
 
 .footer-icons {
