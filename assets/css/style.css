@@ -166,19 +166,21 @@ a {
 }
 
 .line-break {
-    height:2px;
+    height: 2px;
     background-color: grey;
-    width:100%;
+    width: 100%;
 }
 
 
 /* =============== portrate circle image and about me text */
 
 #circle-back {
-    background-color: white;
+    /* background-color: green; */
     padding-top: 10px;
     padding-bottom: 10px;
- }
+    height: 100px;
+
+}
 
 
 #circle-outer {
@@ -199,7 +201,7 @@ a {
     background-size: 150%;
     background-repeat: no-repeat;
     background-position: center;
-  
+
     border-width: 4px;
     height: 100%;
     width: 100%;
@@ -208,13 +210,13 @@ a {
 }
 
 #pedal-image {
-    background-color: grey;
+    background-color: white;
     background-image: url(../images/guitar-pedels.jpg);
     padding-top: 100px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-   
+    width: auto;
     height: 33%;
 }
 
@@ -228,7 +230,7 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
- 
+
     height: 33%;
 }
 
@@ -242,13 +244,28 @@ a {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-   
+
     height: 33%;
 }
 
-#ethos,
-.our-address,
+
 #sales-pitch p {
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 1em;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+#ethos,
+.our-address {
     font-family: Montserrat, sans-serif;
     color: black;
     font-weight: 500;
@@ -503,6 +520,20 @@ iframe {
 }
 
 @media only screen and (min-width: 800px) {
+    #pedal-image {
+        margin: 10px;
+        height: 33%;
+        background-image: url(../images/croud-music.jpg);
+        
+    }
+
+    #rgt-logo {
+        height: 33%;
+    }
+
+    #lcm-logo {
+        height: 33%;
+    }
 
     #circle-back {
         /* background-color: green; */
@@ -511,28 +542,23 @@ iframe {
     .grid-container-1 {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-template-rows: 1fr 1fr;
     }
 
     .grid-item-1 {
-
         order: 1;
-
     }
 
     .grid-item-2 {
         border-radius: 25%;
         order: 3;
-
-
     }
 
     .grid-item-3 {
         order: 2;
         grid-row: span 2;
-        height: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
-        
+
     }
 }
