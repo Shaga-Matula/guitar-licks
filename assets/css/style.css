@@ -618,14 +618,29 @@ iframe {
     .testimon-container  {
         display: flex;
         justify-content:space-evenly;
-        
-           
+                  
     }
     .testimon  {
         display:flex;
         width:calc(100% / 3);
         padding: 0 5px 0 5px;
-      
-      
+           
     }
+    .card-back-page {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+       
+    }
+    .card-container {
+        display:flex;
+        width:calc(100% / 3);
+        justify-content:space-around;
+                 
+    }
+    .card {
+        
+    }
+    
+
 }
