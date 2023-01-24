@@ -216,7 +216,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  
+
 }
 
 /*================= Registory of Guitar Tutors banner\logo ==============*/
@@ -240,7 +240,7 @@ a {
     padding-top: 50px;
     padding-right: 10px;
     padding-left: 10px;
-    
+
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -254,15 +254,16 @@ a {
     text-align: center;
     font-weight: 900;
 }
+
 #sales-pitch p {
     font-family: Montserrat, sans-serif;
     color: black;
     font-weight: 300;
     font-size: 1em;
     height: auto;
-    background-color:blue;
-   
-   }
+    background-color: blue;
+
+}
 
 
 #ethos {
@@ -282,15 +283,15 @@ a {
 #guitar-styles {
     list-style-type: disc;
     font-family: Montserrat, sans-serif;
-    font-weight:  900;
+    font-weight: 900;
     font-size: 1em;
     height: 100%;
     padding-left: 2em;
     padding-right: .5em;
-    
+
     /* padding-top: 10px; */
     text-align: center;
-    
+
 }
 
 #style-list {
@@ -302,7 +303,7 @@ a {
     font-size: 1em;
     height: 100%;
     padding: auto;
-    
+
 }
 
 
@@ -310,16 +311,18 @@ a {
 
 
 
-.testi-pat-hof, .testi-april-r, .testi-don-J{
-  
-        
+.testi-pat-hof,
+.testi-april-r,
+.testi-don-J {
+
+
     font-weight: 900;
     font-size: 1em;
     height: auto;
     padding: 15px 10px 10px 10px;
     text-align: center;
-   
-  
+
+
 }
 
 
@@ -332,7 +335,8 @@ a {
 }
 
 
-.our-address, .our-address h2 a {
+.our-address,
+.our-address h2 a {
     font-family: Montserrat, sans-serif;
     color: black;
     font-weight: 300;
@@ -379,7 +383,7 @@ a {
     line-height: 2em;
     max-width: 500px;
     min-width: 300px;
-    
+
 }
 
 
@@ -411,8 +415,9 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .content {
-    color : white;
+    color: white;
     font-weight: 500;
 }
 
@@ -469,32 +474,33 @@ input[type="submit"] {
 }
 
 
-.our-address-back  {
-    background-color: grey;
+.our-address-back {
+
     margin: auto;
     color: white;
-    font-weight: 400;
+    font-weight: 600;
     border: solid 1px black;
     border-radius: 15px;
     min-width: 300px;
-    /* line-height: 4em; */
+    line-height: 4em;
     text-align: center;
-    /* background-image: url(../images/b-w-guitar.jpg);
+    background-image: url(../images/pexels-pixabay-210766.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-     */
+
 }
 
 .our-address-back a {
     font-size: 1.2em;
-       
+    color: white;
+
 }
 
 
 fieldset {
     margin: auto;
-    
+
     padding: 1em 2em;
     border: solid 1px black;
     border-radius: 15px;
@@ -512,7 +518,7 @@ fieldset {
 fieldset label {
     color: white;
     font-weight: 600;
-    
+
 }
 
 legend {
@@ -568,13 +574,14 @@ iframe {
     height: auto;
     filter: invert(100%);
 }
+
 /* =================== Smart Phones ================================== */
 @media only screen and (max-width: 610px) {
 
     #main-title-1,
     #main-title-3 a {
         align-self: center;
-       
+
     }
 
     #head-area {
@@ -583,22 +590,25 @@ iframe {
         align-items: center;
     }
 
-    
-#style-list {
-    padding-bottom: 10px;
-    
+
+    #style-list {
+        padding-bottom: 10px;
+
+    }
+    .our-address-back {
+    margin: 10px;
+    }
+
+
 }
 
-
-
-}
 /* ==================== Tablets  ====================================== */
 @media only screen and (min-width: 800px) {
     #pedal-image {
         margin: 10px;
         height: auto;
         background-image: url(../images/croud-music.jpg);
-        
+
     }
 
     #rgt-logo {
@@ -634,69 +644,75 @@ iframe {
         display: flex;
         flex-direction: column;
     }
+
     .sales-container {
         display: flex;
-        justify-content:space-around;
+        justify-content: space-around;
         flex-direction: row-reverse;
     }
+
     #guitar-styles {
         width: 100%;
         padding: 3%;
     }
-    .testimon-container  {
+
+    .testimon-container {
         display: flex;
-        justify-content:space-evenly;
-                  
+        justify-content: space-evenly;
+
     }
-    .testimon  {
-        display:flex;
-        width:calc(100% / 3);
+
+    .testimon {
+        display: flex;
+        width: calc(100% / 3);
         padding: 0 5px 0 5px;
-           
+
     }
+
     .card-back-page {
         display: flex;
         flex-direction: row;
-        justify-content:space-around;
-       
+        justify-content: space-around;
+
     }
+
     .card-container {
-        display:flex;
-        width:calc(100% / 3);
-        justify-content:space-around;
+        display: flex;
+        width: calc(100% / 3);
+        justify-content: space-around;
         max-width: 500px;
         min-width: 300px;
-                 
+
     }
 
     /* ================ contacts page =========== */
     #contacts-page {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        align-items:center;
+        align-items: center;
         height: auto;
-        
-        
-   }
 
-   .our-address-back {
-    
-    padding-top: 10px;
-    border:auto;
-    align-self: center;
-   }
 
-   .our-add-container  {
-    /* background-color: blue; */
-    margin: auto;
     }
-   
-   .signup-form {
-    /* background-color: chartreuse; */
-    padding: 20px 0 20px 0;
 
-  
+    .our-address-back {
+        padding-top: 10px;
+        border: auto;
+        align-self: center;
     }
+
+    .our-add-container {
+        /* background-color: blue; */
+        margin: auto;
+    }
+
+    .signup-form {
+
+        padding: 20px 0 20px 0;
+
+
+    }
+
     .fieldset {
         /* margin:auto; */
     }
