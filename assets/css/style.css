@@ -377,6 +377,9 @@ a {
     color: white;
     align-items: center;
     line-height: 2em;
+    max-width: 500px;
+    min-width: 300px;
+    
 }
 
 
@@ -407,6 +410,10 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.content {
+    color : white;
+    font-weight: 500;
 }
 
 /* ==============Button link from card to sign me up ==================*/
@@ -556,12 +563,8 @@ iframe {
     padding-bottom: 10px;
     
 }
-/* .testimonial-bck-img {
-    background-image: url(../images/croud-music.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
+
+
 
 }
 /* ==================== Tablets  ====================================== */
@@ -636,11 +639,33 @@ iframe {
         display:flex;
         width:calc(100% / 3);
         justify-content:space-around;
+        max-width: 500px;
+        min-width: 300px;
                  
     }
-    .card {
+    #contacts-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
         
-    }
-    
+
+        /* grid-gap: 0px 0px; */
+       
+       
+        
+       
+   }
+   .con-page-container {
+   
+   
+   }
+   .signup-form fieldset, .our-address-back {
+  background-color: chartreuse;
+   width:33%;
+   height: 80%;
+   
+
+
+   }
 
 }
