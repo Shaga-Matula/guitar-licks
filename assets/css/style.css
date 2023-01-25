@@ -12,9 +12,10 @@
 
 }
 
+
 body {
     max-width: 1200px;
-    /* margin: auto; */
+    margin: auto;
 }
 
 /* Set default font to body */
@@ -621,7 +622,7 @@ iframe {
 
     .our-address-back {
         height: min-content;
-      
+        
         padding: 10px;
         width: auto;
     }
@@ -718,9 +719,6 @@ iframe {
         display: flex;
         align-items:center;
         justify-content:space-evenly;
-
-        /* margin: auto;
-        height: auto; */
         padding-bottom: 10px;
 
 
@@ -748,7 +746,25 @@ iframe {
         /* margin:auto; */
     }
 
-    /* larger screens */
+}
+@media screen and (max-width: 940px) {
+    #contacts-page {
+        background-color: rgb(1, 24, 24);
+        /* display: flex;
+        /* align-items:center;
+        justify-content:space-evenly;
+        padding-bottom: 10px; */ */
+
+
+    }
+
+}
+
+
+@media screen and (max-width: 1200px){
+
+
+
     body {
         max-width: 1200px;
         margin: auto;
