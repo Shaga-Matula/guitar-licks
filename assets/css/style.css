@@ -14,7 +14,7 @@
 
 body {
     max-width: 1200px;
-    margin: auto;
+    /* margin: auto; */
 }
 
 /* Set default font to body */
@@ -433,12 +433,12 @@ a {
 }
 
 .course-image {
-   
+
     background-image: url(../images/man-2591032_1280.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:30vh;
+    height: 30vh;
 }
 
 
@@ -487,24 +487,26 @@ input[type="submit"] {
 
 .our-address-back {
 
-    margin: auto;
-    color: white;
+    /* margin: auto; */
+    color: black;
     font-weight: 600;
     border: solid 1px black;
     border-radius: 15px;
     min-width: 300px;
+    max-width: 400px;
     line-height: 4em;
     text-align: center;
-    background-image: url(../images/pexels-pixabay-210766.jpg);
+    /* width: auto; */
+    /* background-image: url(../images/pexels-pixabay-210766.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 
 }
 
 .our-address-back a {
     font-size: 1.2em;
-    color: white;
+    color: black;
 
 }
 
@@ -589,6 +591,11 @@ iframe {
 /* =================== Smart Phones ================================== */
 @media only screen and (max-width: 610px) {
 
+
+    #nav-bar li a {
+        font-size: 1em;
+    }
+
     #main-title-1,
     #main-title-3 a {
         align-self: center;
@@ -606,8 +613,12 @@ iframe {
         padding-bottom: 10px;
 
     }
+
     .our-address-back {
-    margin: 10px;
+        height: min-content;
+        margin: 10px;
+        padding: 10px;
+        width: auto;
     }
 
 
@@ -698,10 +709,14 @@ iframe {
 
     /* ================ contacts page =========== */
     #contacts-page {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
-        height: auto;
+        background-color: azure;
+       display: flex;
+        align-items:center;
+        justify-content:space-evenly;
+
+        /* margin: auto;
+        height: auto; */
+        padding-bottom: 10px;
 
 
     }
@@ -714,7 +729,7 @@ iframe {
 
     .our-add-container {
         /* background-color: blue; */
-        margin: auto;
+        /* margin: auto; */
     }
 
     .signup-form {
@@ -726,5 +741,11 @@ iframe {
 
     .fieldset {
         /* margin:auto; */
+    }
+
+    /* larger screens */
+    body {
+        max-width: 1200px;
+        margin: auto;
     }
 }
