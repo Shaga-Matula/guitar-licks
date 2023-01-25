@@ -115,8 +115,6 @@ body {
     padding-bottom: 10px;
 }
 
-/* header screen size less 600px */
-/* @media only screen and (max-width: 600px) { */
 
 
 .main-image {
@@ -495,7 +493,7 @@ input[type="submit"] {
 
 .our-address-back {
 
-    /* margin: auto; */
+    margin: auto;
     color: white;
     font-weight: 600;
     /* border: solid 1px black; */
@@ -513,9 +511,14 @@ input[type="submit"] {
 
 }
 
+.our-add-container {
+    /* margin: 0 0 300px 0; */
+    /* padding-bottom: 300px; */
+}
+
 .our-address-back a {
     font-size: 1.2em;
-    color: black;
+    color: white;
 
 }
 
@@ -620,11 +623,19 @@ iframe {
         padding-bottom: 10px;
 
     }
-
+    .our-add-container {
+        /* margin: 0 0 300px 0; */
+        padding-bottom: 10px;
+    }
     .our-address-back {
         height: min-content;
         padding: 10px;
         width: auto;
+    }
+    .our-address-back a {
+        font-size: 1.2em;
+        color: white;
+    
     }
 
     /* ================== Gallery Page ========================= */
@@ -739,11 +750,15 @@ iframe {
 
 
     }
-
+    .our-add-container {
+        /* margin: 0 0 300px 0; */
+        padding-bottom: 10px;
+    }
     .our-address-back {
+      
         padding-top: 10px;
-        /* border: auto; */
-        align-self: center;
+        border: auto;
+        
     }
 
    .signup-form {
@@ -757,9 +772,18 @@ iframe {
         background-color: rgb(1, 24, 24);
     }
 
+    .our-add-container {
+        /* margin: 0 0 300px 0; */
+        padding-bottom: 10px;
+    }
+
 }
 
 
 @media screen and (max-width: 1200px) {
+    .our-add-container {
+        /* margin: 0 0 300px 0; */
+        padding-bottom: 10px;
+    }
     
 }
