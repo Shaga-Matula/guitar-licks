@@ -355,7 +355,7 @@ a {
     height: 40px;
     text-align: center;
     padding: 1em;
-    background-color: #2e2f2f;
+    background-color: #222831;
 }
 
 .footer-icons li {
@@ -452,12 +452,12 @@ a {
 
 /* ============ contacts form =========== */
 .what-level {
-    color: white;
+    color:black;
     padding-bottom: 1em;
 }
 
 .what-level p {
-    color: white;
+    color: black;
     font-weight: 600;
     margin-top: 1em;
 }
@@ -495,7 +495,7 @@ input[type="submit"] {
 .our-address-back {
 
     margin: auto;
-    color: white;
+    color: black;
     font-weight: 600;
     /* border: solid 1px black; */
     border-radius: 15px;
@@ -519,7 +519,7 @@ input[type="submit"] {
 
 .our-address-back a {
     font-size: 1.2em;
-    color: white;
+    color: black;
 
 }
 
@@ -535,7 +535,7 @@ fieldset {
 }
 
 fieldset label {
-    color: white;
+    color: black;
     font-weight: 600;
 
 }
@@ -544,7 +544,7 @@ legend {
     font-family: lato, sans-serif;
     font-size: 1.2em;
     padding: 0 .5em;
-    color: white;
+    color: black;
 }
 
 label {
@@ -567,7 +567,7 @@ textarea {
     min-height: 8em;
     min-width: 100%;
     padding: .5em;
-    border: solid .5px #c1a75b;
+    border: solid .5px black;
 }
 
 /* ============== map segment of contacts page ============ */
@@ -578,13 +578,13 @@ textarea {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: grey;
+    background-color: #222831;
     /* border: solid black; */
 }
 
 .map-area p {
-    font-weight: 600;
-    color: white;
+    font-weight: 800;
+    color:white;
     margin: 20px;
 }
 
