@@ -432,6 +432,17 @@ a {
     padding: 5px;
 }
 
+.course-image {
+   
+    background-image: url(../images/man-2591032_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:30vh;
+}
+
+
+
 /* ============ contacts form =========== */
 .what-level {
     color: white;
