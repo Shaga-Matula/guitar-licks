@@ -442,7 +442,14 @@ a {
     height: 30vh;
 }
 
-
+#gallery-container {
+    background-color: #333;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
 
 /* ============ contacts form =========== */
 .what-level {
