@@ -344,7 +344,7 @@ a {
     height: auto;
     text-align: center;
     align-items: center;
-    line-height: 2em;
+    /* line-height: 2em; */
 
 
 }
@@ -488,14 +488,15 @@ input[type="submit"] {
 .our-address-back {
 
     /* margin: auto; */
-    color: black;
+    color: white;
     font-weight: 600;
-    border: solid 1px black;
+    /* border: solid 1px black; */
     border-radius: 15px;
     min-width: 300px;
     max-width: 400px;
-    line-height: 4em;
+    line-height: 2em;
     text-align: center;
+    /* background-color: rgb(1, 24, 24); */
     /* width: auto; */
     /* background-image: url(../images/pexels-pixabay-210766.jpg);
     background-position: center;
@@ -513,17 +514,17 @@ input[type="submit"] {
 
 fieldset {
     margin: auto;
-
+    
     padding: 1em 2em;
-    border: solid 1px black;
+    /* border: solid 1px black; */
     border-radius: 15px;
     min-width: 300px;
-    /* background-color:grey; */
+    background-color: rgb(1, 24, 24);
     width: 33%;
-    background-image: url(../images/b-w-guitar.jpg);
+    /* background-image: url(../images/b-w-guitar.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 
@@ -588,10 +589,14 @@ iframe {
     filter: invert(100%);
 }
 
+
 /* =================== Smart Phones ================================== */
 @media only screen and (max-width: 610px) {
-
-
+    #contacts-page {
+    padding-top: 10px;
+     height: auto;
+     background-color: rgb(1, 24, 24);
+    }
     #nav-bar li a {
         font-size: 1em;
     }
@@ -616,7 +621,7 @@ iframe {
 
     .our-address-back {
         height: min-content;
-        margin: 10px;
+      
         padding: 10px;
         width: auto;
     }
@@ -709,8 +714,8 @@ iframe {
 
     /* ================ contacts page =========== */
     #contacts-page {
-        background-color: azure;
-       display: flex;
+        background-color: rgb(1, 24, 24);
+        display: flex;
         align-items:center;
         justify-content:space-evenly;
 
@@ -723,7 +728,7 @@ iframe {
 
     .our-address-back {
         padding-top: 10px;
-        border: auto;
+        /* border: auto; */
         align-self: center;
     }
 
