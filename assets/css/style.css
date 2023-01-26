@@ -284,12 +284,12 @@ a {
     height: 100%;
 
     padding-right: .5em;
-    text-align: left;
+    text-align: center;
 
 
 }
 
-.style-list li {
+#style-list  {
     text-align: left;
     list-style-type: disc;
     font-family: Montserrat, sans-serif;
@@ -297,7 +297,7 @@ a {
     font-weight: 900;
     font-size: 1em;
     height: 100%;
-    padding-left: 6em;
+    padding: 0 0 10px 30px ;
 
 
 }
