@@ -108,7 +108,7 @@ body {
 
 #logo a h2 {
     font-family: Lily Script One, sans-serif;
-    color:#ececec;
+    color: #ececec;
     font-weight: 400;
     font-size: 1.5em;
     text-align: center;
@@ -195,7 +195,7 @@ a {
 }
 
 #circle-inner {
-    background-color: blue;
+
     background-image: url(../images/Gl-icon.jpg);
     background-size: 150%;
     background-repeat: no-repeat;
@@ -248,16 +248,17 @@ a {
 #sales-pitch {
     padding: 0 10% 3% 10%;
     text-align: center;
-    font-weight: 900;
+
 }
 
 #sales-pitch p {
     font-family: Montserrat, sans-serif;
     color: black;
-    font-weight: 300;
+    font-weight: 900;
     font-size: 1em;
     height: auto;
-    background-color: blue;
+
+
 
 }
 
@@ -268,7 +269,7 @@ a {
     font-weight: 900;
     font-size: 1em;
     height: 100%;
-   
+
     text-align: center;
     padding: 30px 10px 10px 10px;
 
@@ -337,6 +338,7 @@ a {
     text-align: center;
     align-items: center;
 }
+
 .our-address h2 a {
     font-family: Lily Script One, sans-serif;
     color: black;
@@ -345,7 +347,7 @@ a {
     height: auto;
     text-align: center;
     align-items: center;
-    
+
 }
 
 .footer-icons {
@@ -449,7 +451,7 @@ a {
 
 /* ============ contacts form =========== */
 .what-level {
-    color:black;
+    color: black;
     padding-bottom: 1em;
 }
 
@@ -499,7 +501,7 @@ input[type="submit"] {
     max-width: 400px;
     line-height: 2em;
     text-align: center;
- 
+
 }
 
 .our-add-container {
@@ -573,7 +575,7 @@ textarea {
 
 .map-area p {
     font-weight: 800;
-    color:white;
+    color: white;
     margin: 20px;
 }
 
@@ -595,14 +597,14 @@ iframe {
 /* .licks-gallery > a {
      flex-basis: 200px; 
   } */
-  
-  .licks-gallery a img {
+
+.licks-gallery a img {
     object-fit: cover;
     max-width: auto;
     height: auto;
     vertical-align: middle;
     border-radius: 5px;
-  }
+}
 
 /* =================== Smart Phones ================================== */
 @media only screen and (max-width: 610px) {
@@ -655,9 +657,9 @@ iframe {
     .licks-gallery img {
         width: 100%;
         height: auto;
-       
+
     }
-   
+
     .licks-gallery {
         padding: 5px;
     }
@@ -665,9 +667,9 @@ iframe {
 
 /* ==================== Tablets  ====================================== */
 @media only screen and (min-width: 800px) {
-   
- 
-   
+
+
+
     #pedal-image {
         margin: 10px;
         height: auto;
@@ -734,7 +736,7 @@ iframe {
     }
 
     .licks-gallery img {
-       
+
         height: auto;
     }
 
