@@ -296,7 +296,7 @@ a {
     font-weight: 900;
     font-size: 1em;
     height: 100%;
-    padding: auto;
+   
 
 }
 
@@ -600,7 +600,7 @@ iframe {
 
 .licks-gallery a img {
     object-fit: cover;
-    max-width: auto;
+    
     height: auto;
     vertical-align: middle;
     border-radius: 5px;
@@ -775,7 +775,7 @@ iframe {
     .our-address-back {
 
         padding-top: 10px;
-        border: auto;
+       
 
     }
 
