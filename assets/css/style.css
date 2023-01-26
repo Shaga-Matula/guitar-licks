@@ -282,13 +282,14 @@ a {
     font-weight: 900;
     font-size: 1em;
     height: 100%;
-    padding-left: 2em;
+
     padding-right: .5em;
-    text-align: center;
+    text-align: left;
+
 
 }
 
-.style-list {
+.style-list li {
     text-align: left;
     list-style-type: disc;
     font-family: Montserrat, sans-serif;
@@ -296,7 +297,8 @@ a {
     font-weight: 900;
     font-size: 1em;
     height: 100%;
-   
+    padding-left: 6em;
+
 
 }
 
@@ -600,7 +602,7 @@ iframe {
 
 .licks-gallery a img {
     object-fit: cover;
-    
+
     height: auto;
     vertical-align: middle;
     border-radius: 5px;
@@ -775,7 +777,7 @@ iframe {
     .our-address-back {
 
         padding-top: 10px;
-       
+
 
     }
 
