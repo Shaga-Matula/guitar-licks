@@ -224,11 +224,9 @@ a {
     background-image: url(../images/RGT.jpg);
     padding-top: 50px;
     padding-right: 10px;
-    /* padding-left: 100px; */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
     height: 33%;
 }
 
@@ -249,7 +247,6 @@ a {
 
 #sales-pitch {
     padding: 0 10% 3% 10%;
-    /* background-color: blueviolet; */
     text-align: center;
     font-weight: 900;
 }
@@ -271,9 +268,8 @@ a {
     font-weight: 900;
     font-size: 1em;
     height: 100%;
-    /* background-color: brown; */
+   
     text-align: center;
-    /* border-left: solid 1px black; */
     padding: 30px 10px 10px 10px;
 
 
@@ -287,8 +283,6 @@ a {
     height: 100%;
     padding-left: 2em;
     padding-right: .5em;
-
-    /* padding-top: 10px; */
     text-align: center;
 
 }
@@ -334,8 +328,7 @@ a {
 }
 
 
-.our-address,
-.our-address h2 a {
+.our-address {
     font-family: Montserrat, sans-serif;
     color: black;
     font-weight: 300;
@@ -343,13 +336,17 @@ a {
     height: auto;
     text-align: center;
     align-items: center;
-    /* line-height: 2em; */
-
-
 }
-
-
-
+.our-address h2 a {
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 1em;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    
+}
 
 .footer-icons {
     height: 40px;
@@ -497,19 +494,12 @@ input[type="submit"] {
     margin: auto;
     color: black;
     font-weight: 600;
-    /* border: solid 1px black; */
     border-radius: 15px;
     min-width: 300px;
     max-width: 400px;
     line-height: 2em;
     text-align: center;
-    /* background-color: rgb(1, 24, 24); */
-    /* width: auto; */
-    /* background-image: url(../images/pexels-pixabay-210766.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-
+ 
 }
 
 .our-add-container {
@@ -520,7 +510,6 @@ input[type="submit"] {
 .our-address-back a {
     font-size: 1.2em;
     color: black;
-
 }
 
 
@@ -594,6 +583,26 @@ iframe {
     filter: invert(100%);
 }
 
+#gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* .licks-gallery > a {
+     flex-basis: 200px; 
+  } */
+  
+  .licks-gallery a img {
+    object-fit: cover;
+    max-width: auto;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+  }
 
 /* =================== Smart Phones ================================== */
 @media only screen and (max-width: 610px) {
@@ -638,7 +647,7 @@ iframe {
 
     .our-address-back a {
         font-size: 1.2em;
-        color: white;
+        color: black;
 
     }
 
@@ -646,10 +655,9 @@ iframe {
     .licks-gallery img {
         width: 100%;
         height: auto;
-        /* display: flex;
-        align-items: center; */
+       
     }
-
+   
     .licks-gallery {
         padding: 5px;
     }
@@ -657,6 +665,9 @@ iframe {
 
 /* ==================== Tablets  ====================================== */
 @media only screen and (min-width: 800px) {
+   
+ 
+   
     #pedal-image {
         margin: 10px;
         height: auto;
@@ -723,10 +734,8 @@ iframe {
     }
 
     .licks-gallery img {
-        width: 100%;
+        
         height: auto;
-        /* display: flex;
-        align-items: center; */
     }
 
     .card-back-page {
