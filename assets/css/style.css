@@ -43,16 +43,13 @@ body {
 #nav-bar {
     background-color: #222831;
     padding-left: 20px;
-
-
-
+    padding-bottom: 2px;
 }
 
 #nav-bar li {
     display: inline-block;
     padding: 0px 10px 0 10px;
     background-color: #222831;
-
 }
 
 /* clean up nav links & give some style */
@@ -65,8 +62,7 @@ body {
     font-weight: 400;
     font-family: 'Bebas Neue', sans-serif;
     color: #ececec;
-
-}
+  }
 
 /* hightlight border of nav icons when hover over */
 /* ============================================== */
@@ -80,7 +76,16 @@ body {
 }
 
 #nav-bar li a:active {
-    background-color: white;
+    background-color: red;
+}
+
+.active {
+    
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0 5px 0 5px;
+    font-size: 1.1em;
+    background-color: #30475e;
 }
 
 #logo {
