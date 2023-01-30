@@ -1,5 +1,9 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+<figure>
+  <img src="assets/images/mockup.png" width=800>
+</figure>
+
 <h1>Project 1: - Guitar licks, Guitar Tuition Web Site.</h1> 
 
 
@@ -57,12 +61,23 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 
 
 - __Footer__
-
+  - The address information is included at the bottom of the page situated above the footer which will help the player to send us an email or call.
   - The footer section includes links to social media such as Facebook, Twitter YouTube and Instagram. 
   - The links will open to a new tab to allow easy navigation for the Guitarist.
   - This is essential as it encourages the students to keep connected via social media for upcoming gigs and open workshops.
+ 
 
 
 <figure>
   <img src="assets/images/footer.png" width=800>
+</figure>
+
+- __Syllabus__
+
+  - The syllabus section has each level of tuition clearly stated. 
+  - The details of each course are held on 3 cards that are responsive for all sizes of screen.
+  - Each card is comprehensively detailed to give the guitarist a thorough indication of the learning journey. 
+  - A "Sign me up" button at the end of each card can easily navigate the player to the signup area. 
+<figure>
+  <img src="assets/images/syllabus.png" width=800>
 </figure>
