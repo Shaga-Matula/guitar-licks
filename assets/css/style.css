@@ -62,7 +62,7 @@ body {
     font-weight: 400;
     font-family: 'Bebas Neue', sans-serif;
     color: #ececec;
-  }
+}
 
 /* hightlight border of nav icons when hover over */
 /* ============================================== */
@@ -80,7 +80,7 @@ body {
 }
 
 .active {
-    
+
     border: 1px solid black;
     border-radius: 4px;
     padding: 0 5px 0 5px;
@@ -665,7 +665,7 @@ iframe {
     }
 
     .card {
-        border: 0 5px 0 5px;
+        border: 5px;
     }
 
 }
@@ -674,7 +674,7 @@ iframe {
 
 @media only screen and (min-width: 610px) {
     .card {
-        border: 0 5px 0 5px;
+        border: 5px;
     }
 }
 
@@ -683,7 +683,7 @@ iframe {
 @media only screen and (min-width: 800px) {
 
     .card {
-        border: 0 5px 0 5px;
+        border: 5px;
     }
 
     #pedal-image {
@@ -748,7 +748,7 @@ iframe {
     }
 
     .card {
-        border: 0 5px 0 5px;
+        border: 5px;
     }
 
 
