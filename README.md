@@ -54,3 +54,15 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 <figure>
   <img src="assets/images/testimonials.png" width=800>
 </figure>
+
+
+- __Footer__
+
+  - The footer section includes links to social media such as Facebook, Twitter YouTube and Instagram. 
+  - The links will open to a new tab to allow easy navigation for the Guitarist.
+  - This is essential as it encourages the students to keep connected via social media for upcoming gigs and open workshops.
+
+
+<figure>
+  <img src="assets/images/footer.png" width=800>
+</figure>
