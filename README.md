@@ -91,3 +91,37 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
   <img src="assets/images/gallery.png" width=800>
 </figure>
 
+- __Contacts Page__
+
+  - The contacts page has a form wit First Name, Last Name, Email Address, Phone Number and message area.
+  - Also Vertical radio buttons dictating the entry level of the student, Beginner Intermediate of Advanced. 
+  - The student will then be contacted by one of our assessor to determine the correct course and any other needs of the potential student.  
+
+
+<figure>
+  <img src="assets/images/contacts.png" width=800>
+</figure>
+
+- __Contacts Page__ 
+
+  - A map section with the studio pined is inclduded with the address on the contents page above the footer.  
+
+
+<figure>
+  <img src="assets/images/map.png" width=800>
+</figure>
+
+
+## <h1>Testing</h1> 
+
+  - Guitar Licks --- HTML code has been tested and passed. 
+  - Guitar Licks --- All CSS code has been tested and passed.
+
+
+### Validator Testing 
+
+- HTML
+  - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2F)
+
+- CSS
+  - Guitar Licks ---- no errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
