@@ -7,20 +7,11 @@ Guitar Licks website offers people of all ages to pick up a guitar and be part o
 The sites courses are structured and gradually build the players confidence whilst learning and providing essential techniques and music theory to back it up. On the courses page players are given full details of the course material in order to assist them make the correct choice. <br><br>
 Players are encouraged through the site to sign up at a massive 50% discount. This then guides them to the signup area where they can leave there details and be contacted at a later date to be assessed and assigned a suitable tutor and course. 
 
+Features<h1>
 <hr>
 <figure>
-  <img src="assets/images/landing-page-1.png" width=200>
-  <figcaption>Rough Sketch Landing Page</figcaption>
+  <img src="assets/images/navbar.png" width=800>
 </figure>
-<figure>
-  <img src="assets/images/cources-page-1.png" width=200>
-  <figcaption>Rough Sketch Cources Page</figcaption>
-</figure>
-<figure>
-  <img src="assets/images/contacts-page-1.png" width=200>
-  <figcaption>Rough Sketch Contacts Page</figcaption>
-</figure>
-
 
 
 
