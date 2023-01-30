@@ -128,7 +128,7 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
   - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2Fcourses.html)
 
 - HTML gallery.html
-  - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2Fcourses.html)
+  - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2Fgallery.html#cl12c12)
 
 - CSS
   - Guitar Licks ---- no errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
