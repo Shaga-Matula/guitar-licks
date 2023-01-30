@@ -20,17 +20,37 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
   
   - When a user is active on a page they are given feedback with a highlighed nav button to guide them on which page they have activaed. 
 <figure>
-  <img src="assets/images/navbar.png" width=700>
+  <img src="assets/images/navbar.png" width=800>
 </figure>
 
 - __The landing page image__
 
-  - The main page includes a photograph of a playing guitar with an responsive text overlay featuring a 50% discount. 
-  - The responce text draws the player towords the signing page by link of the "Click Me" text to navagate.  
+
+
+  - The main page includes a photograph of a playing guitar with a responsive text overlay featuring a 50% discount. 
+  - The responsive text draws the guitar player towards the signing page by link of the "Click Me" text to navigate.  
 
 <figure>
-  <img src="assets/images/landing.png" width=700>
+  <img src="assets/images/landing.png" width=800>
+</figure>
+
+- __Guitar Licks Ethos__
+
+  - The Main text area supply’s the guitarist with an overview of how we think and how we can assist in further education the budding talent. 
+
+  - The responsive text draws the guitar player towards the signing page by link of the "Click Me" text to navigate.  
+
+  - Included in the page are two primary prestigious accreditations for Registry of Guitar Tutors and London College of Music. 
+
+<figure>
+  <img src="assets/images/landing-text.png" width=800>
 </figure>
 
 
+- __Testimonial Area__
 
+  - Here we supply comments and testimonials from past students.
+
+<figure>
+  <img src="assets/images/testimonials.png" width=800>
+</figure>
