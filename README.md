@@ -4,7 +4,7 @@
   <img src="assets/images/mockup.png" width=800>
 </figure>
 
-<h1>Project 1: - Guitar licks, Guitar Tuition Web Site.</h1> 
+<h1>Project 1: - Guitar licks, Guitar Tuition Web Site. "Be The Music"</h1> 
 
 
 Guitar Licks website offers people of all ages to pick up a guitar and be part of the music. The site is tailored with three main teaching courses to accommodate the beginner, intermediate and advanced player with the added bonus of live performance solo or with a band. The site is intended to offer a not just a place to take lessons but to be part of a developing community of budding new and old musicians, providing contacts and a map area to assist location us. <br><br>
@@ -81,3 +81,13 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 <figure>
   <img src="assets/images/syllabus.png" width=800>
 </figure>
+
+- __Gallery__
+
+- The gallery page includes images of previous gigs and concerts that will inspire the player to "Be THe Music"
+
+
+<figure>
+  <img src="assets/images/gallery.png" width=800>
+</figure>
+
