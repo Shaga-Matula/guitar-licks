@@ -151,6 +151,13 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
   </figure>
 
  - Contacts page was designed using figma 
+
     <figure>
       <img src="assets/images/figma-contacts.png" width=500>
+    </figure>
+
+  - Smartphone view was designed using figma 
+ 
+    <figure>
+      <img src="assets/images/figma-smart.png" width=500>
     </figure>
