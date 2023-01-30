@@ -138,12 +138,12 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 </figure>
 
 
-- __Figma__
+- __Figma__ was used to layout the draft from sketch
 
-  - Main landing page was designed using figma 
-  <figure>
-    <img src="assets/images/figma-home.png" width=500>
-</figure>
+- Main landing page was designed using figma 
+      <figure>
+      <img src="assets/images/figma-home.png" width=500>
+      </figure>
 
   - Syllabus page was designed using figma 
   <figure>
@@ -151,6 +151,6 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
   </figure>
 
  - Contacts page was designed using figma 
-<figure>
+    <figure>
       <img src="assets/images/figma-contacts.png" width=500>
-</figure>
+    </figure>
