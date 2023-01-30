@@ -138,3 +138,19 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 </figure>
 
 
+- __Figma__
+
+  - Main landing page was designed using figma 
+  <figure>
+    <img src="assets/images/figma-home.png" width=500>
+</figure>
+
+  - Syllabus page was designed using figma 
+  <figure>
+    <img src="assets/images/figma-syllabus.png" width=500>
+  </figure>
+
+ - Contacts page was designed using figma 
+<figure>
+      <img src="assets/images/figma-contacts.png" width=500>
+</figure>
