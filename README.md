@@ -124,7 +124,7 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
   - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2F)
 
  - HTML courses.html
-  - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2Fcourses.html)
+    - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2Fcourses.html)
 
 - HTML gallery.html
   - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2Fgallery.html#cl12c12)
@@ -143,6 +143,21 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 
   <figure>
   <img src="assets/images/wave-landing.png" width=100>
+    <figcaption>Landing Page-Wave</figcaption>
+  </figure>
+  
+  <figure>
+  <img src="assets/images/wave-courses.png" width=100>
+    <figcaption>Syllabus Page-Wave</figcaption>
+  </figure>
+  
+  <figure>
+  <img src="assets/images/wave-gallery.png" width=100>
+    <figcaption>Gallery Page-Wave</figcaption>
+  </figure>
+  
+  <figure>
+  <img src="assets/images/wave-signup.png" width=100>
     <figcaption>Landing Page Wave</figcaption>
   </figure>
 
