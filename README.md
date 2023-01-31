@@ -137,8 +137,14 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
   - Guitar Licks ---- no errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Wave Testing
-  - Getting very bad contrast from backround image on main landing page. I changed the backround image to black and white and gave it a backround of black. 
+  - Getting very bad contrast from backround image on main landing page. I converted the backround image to black and white and gave it a backround of black. 
+  - On Syllabus page there were over 30 contrast errors, again it was the background color needed changing to black.
+  - There is one warning that will not go away as I have made the logo into a link and its complaining about nav bar link as a duplicate (long time figuring out that). 
 
+  <figure>
+  <img src="assets/images/wave-landing.png" width=100>
+    <figcaption>Landing Page Wave</figcaption>
+  </figure>
 
 ## <h1>Design</h1> 
 
