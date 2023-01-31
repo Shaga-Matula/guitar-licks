@@ -393,7 +393,7 @@ a {
 
 
 .card {
-    background-image: url(../images/b-w-guitar.jpg);
+    background-image: url(../images/ibaniz-guitar.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -426,7 +426,7 @@ a {
 .content ul li,
 .content h2,
 .content h3 {
-    color:  #eb8921;
+    color: white;
     font-weight: 800;
 
 }
