@@ -123,7 +123,7 @@ body {
 
 
 .main-image {
-    background-image: url(../images/green-guitar.jpg);
+    background-image: url(../images/b-w-guitar.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,7 +151,7 @@ body {
 
 #main-title-2 {
     font-family: 'Lily Script One', sans-serif;
-    color: white;
+    color:white;
     font-size: 2em;
     align-self: center;
     text-align: center;
