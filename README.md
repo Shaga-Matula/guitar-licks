@@ -102,7 +102,7 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
         * Last Name (required, type=text)
         * Email (required, type=email)
         * Message (required, type=textarea)
-        
+
   - Also Vertical radio buttons dictating the entry level of the student, Beginner Intermediate of Advanced.
     
 
@@ -110,9 +110,9 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
   <img src="assets/images/contacts.png" width=800>
 </figure>
 
-- __Contacts Page__ 
 
-  - A map section with the studio pined is inclduded with the address on the contents page above the footer.  
+  - A map section with the studio pined is inclduded with the address on the contents page above the footer.
+  - The map was set to night vision for colors.   
 
 
 <figure>
@@ -223,6 +223,25 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
   
   The live link can be found here - [Guitar Licks](https://shaga-matula.github.io/guitar-licks/index.html)
 
+
+## <h1>Technologies</h1>
+
+* HTML
+    * The Website was developed using HTML.
+* CSS
+    * The Website was styled using custom CSS in a seperate file located in assets/css.
+* Visual Studio Code
+    * The website was developed using Visual Studio Code.
+* GitHub
+    * Code is stored on GitHub and delpoyed using Git Pages.
+* Git 
+    * Git commit and Git push along with Git add . were the commands for github.
+* Font Awesome
+    * All Icons obtained from https://fontawesome.com/ used in the footer section for social media links. 
+* Tinyjpg
+    * https://tinyjpg.com/ used tinyjpg toreduce the size of the images.
+* Figma
+    * https://www.figma.com/ Figma is the main design app used forthe site. 
 
   ## <h1>Credits</h1>
 
