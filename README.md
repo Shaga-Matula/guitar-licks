@@ -102,6 +102,7 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
         * Last Name (required, type=text)
         * Email (required, type=email)
         * Message (required, type=textarea)
+        
   - Also Vertical radio buttons dictating the entry level of the student, Beginner Intermediate of Advanced.
     
 
