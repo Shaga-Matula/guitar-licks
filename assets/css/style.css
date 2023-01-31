@@ -75,9 +75,9 @@ body {
     color: #ececec;
 }
 
-#nav-bar li a:active {
+/* #nav-bar li a:active {
     background-color: red;
-}
+} */
 
 .active {
 
@@ -143,7 +143,7 @@ body {
 
 #main-title-1 {
     font-family: 'Lily Script One', sans-serif;
-    color: black;
+    color: #eb8921;
     font-size: 3em;
     align-self: flex-start;
     text-align: center;
@@ -151,7 +151,7 @@ body {
 
 #main-title-2 {
     font-family: 'Lily Script One', sans-serif;
-    color:white;
+    color: #eb8921;
     font-size: 2em;
     align-self: center;
     text-align: center;
@@ -393,7 +393,7 @@ a {
 
 
 .card {
-    background-image: url(../images/ibaniz-guitar.jpg);
+    background-image: url(../images/b-w-guitar.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -426,7 +426,7 @@ a {
 .content ul li,
 .content h2,
 .content h3 {
-    color: white;
+    color:  #eb8921;
     font-weight: 800;
 
 }
