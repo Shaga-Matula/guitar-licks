@@ -136,6 +136,10 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 - CSS
   - Guitar Licks ---- no errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+### Wave Testing
+  - Getting very bad contrast from backround image on main landing page. I changed the backround image to black and white and gave it a backround of black. 
+
+
 ## <h1>Design</h1> 
 
 ### Inital Sketch  :-  A rough sketch was performed to get the basic layout of the page using pen and paper

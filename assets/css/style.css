@@ -123,14 +123,12 @@ body {
 
 
 .main-image {
-    /* background-image: url(../images/b-w-guitar.jpg); */
+    background-image: url(../images/b-w-guitar.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     background-color: black;
-
-
 }
 
 #main-land {
@@ -408,6 +406,7 @@ a {
     padding-bottom: 10px;
     white-space: nowrap;
     border-left: 10px;
+    background-color: black;
 
 }
 
