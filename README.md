@@ -123,8 +123,7 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 - HTML index.html
   - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2F)
 
-  
-- HTML courses.html
+ - HTML courses.html
   - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2Fcourses.html)
 
 - HTML gallery.html
@@ -132,6 +131,7 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 
 - HTML signup.html
   - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2Fsignup.html#cl12c12)
+
 
 - CSS
   - Guitar Licks ---- no errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
@@ -152,7 +152,7 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 
 - Main landing page was designed using figma 
       <figure>
-      <img src="assets/images/figma-home.png" width=500>
+      <img src="assets/images/figma-home.png" alt="Home page using figma" width=500>
       </figure>
 
   - Syllabus page was designed using figma 
@@ -166,8 +166,16 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
       <img src="assets/images/figma-contacts.png" width=500>
     </figure>
 
+  
   - Smartphone view was designed using figma 
  
     <figure>
       <img src="assets/images/figma-smart.png" width=500>
+    </figure>
+
+    ### Color Palette
+    
+    <figure>
+      <img src="assets/images/colour-pallet.png" width=500>
+      <figcaption>Color Pallet Used</figcaption>
     </figure>
