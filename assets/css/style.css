@@ -85,7 +85,7 @@ body {
     border-radius: 4px;
     padding: 0 5px 0 5px;
     font-size: 1.1em;
-    background-color: #30475e;
+    background-color: black;
 }
 
 #logo {
@@ -146,7 +146,7 @@ body {
     font-size: 3em;
     align-self: flex-start;
     text-align: center;
-    
+
 }
 
 #main-title-2 {
@@ -609,6 +609,24 @@ iframe {
 }
 
 /* =================== Smart Phones ================================== */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #nav-bar li a {
+        font-size: .5em;
+        /* color: red; */
+    }
+    #nav-bar li {
+        display: inline-block;
+        padding: 0;
+        background-color: #222831;
+    }
+    #head-area {
+        width: 100%;
+    }
+
+}
+
+
 @media only screen and (max-width: 610px) {
     #contacts-page {
         padding-top: 10px;
