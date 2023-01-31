@@ -120,54 +120,7 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 </figure>
 
 
-## <h1>Testing</h1> 
 
-  - Guitar Licks --- HTML code has been tested and passed. 
-  - Guitar Licks --- All CSS code has been tested and passed.
-
-
-### Validator Testing 
-
-- HTML index.html
-  - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2F)
-
- - HTML courses.html
-    - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2Fcourses.html)
-
-- HTML gallery.html
-  - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2Fgallery.html#cl12c12)
-
-- HTML signup.html
-  - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2Fsignup.html#cl12c12)
-
-
-- CSS
-  - Guitar Licks ---- no errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
-### Wave Testing
-  - Getting very bad contrast from backround image on main landing page. I converted the backround image to black and white and gave it a backround of black. 
-  - On Syllabus page there were over 30 contrast errors, again it was the background color needed changing to black.
-  - There is one warning that will not go away as I have made the logo into a link and its complaining about nav bar link as a duplicate (long time figuring out that). 
-
-  <figure>
-  <img src="assets/images/wave-landing.png" width=100>
-    <figcaption>Landing Page-Wave</figcaption>
-  </figure>
-  
-  <figure>
-  <img src="assets/images/wave-courses.png" width=100>
-    <figcaption>Syllabus Page-Wave</figcaption>
-  </figure>
-  
-  <figure>
-  <img src="assets/images/wave-gallery.png" width=100>
-    <figcaption>Gallery Page-Wave</figcaption>
-  </figure>
-  
-  <figure>
-  <img src="assets/images/wave-signup.png" width=100>
-    <figcaption>Landing Page Wave</figcaption>
-  </figure>
 
 ## <h1>Design</h1> 
 
@@ -220,8 +173,7 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
   * Select the pages link from the setting menu on the left hand side 
   * Under the GitHub Pages from the source section drop-down menu, select the master branch 
   * One the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-  
-  The live link can be found here - [Guitar Licks](https://shaga-matula.github.io/guitar-licks/index.html)
+    - The live link can be found here - [Guitar Licks](https://shaga-matula.github.io/guitar-licks/index.html)
 
 
 ## <h1>Technologies</h1>
@@ -243,6 +195,72 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 * Figma
     * https://www.figma.com/ Figma is the main design app used forthe site. 
 
+  ## <h1>Testing</h1> 
+
+### Responsiveness
+
+Every pages was tested for responsiveness on screen sizes from 320px and upwards on Chrome, Edge, Firefox and Opera browsers.
+
+* Manual steps to test:
+
+  - Open the browser and navigate to [Guitar Licks](https://shaga-matula.github.io/guitar-licks/)
+  - Open dev tools (right click and inspect)
+  - Set to responsive and decrease width to 320px
+  - Set the zoom to 50%
+  - Click and drag the responsive window to maximum width
+
+## Issue:- Nav menu did not fit accross smaller 320px screen, icons were wrapping.
+  - Fix: Set @media for less than 320px and reduced padding on Nav bar to allow inline deployment.  
+  - All further tests performed were scussful. 
+
+
+### Validator Testing 
+
+  - Guitar Licks --- HTML code has been tested and passed. 
+  - Guitar Licks --- All CSS code has been tested and passed.
+
+      - HTML index.html
+        - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2F)
+
+      - HTML courses.html
+        - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2Fcourses.html)
+
+      - HTML gallery.html
+        - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2Fgallery.html#cl12c12)
+
+      - HTML signup.html
+        - Guitar Licks ---- no errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2Fsignup.html#cl12c12)
+
+      - CSS
+        - Guitar Licks ---- no errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Wave Testing
+  - Getting very bad contrast from backround image on main landing page. I converted the backround image to black and white and gave it a backround of black. 
+  - On Syllabus page there were over 30 contrast errors, again it was the background color needed changing to black.
+  - There is one warning that will not go away as I have made the logo into a link and its complaining about nav bar link as a duplicate (long time figuring out that). 
+
+  <figure>
+  <img src="assets/images/wave-landing.png" width=100>
+    <figcaption>Landing Page-Wave</figcaption>
+  </figure>
+  
+  <figure>
+  <img src="assets/images/wave-courses.png" width=100>
+    <figcaption>Syllabus Page-Wave</figcaption>
+  </figure>
+  
+  <figure>
+  <img src="assets/images/wave-gallery.png" width=100>
+    <figcaption>Gallery Page-Wave</figcaption>
+  </figure>
+  
+  <figure>
+  <img src="assets/images/wave-signup.png" width=100>
+    <figcaption>Landing Page Wave</figcaption>
+  </figure>
+  
+  
+  
   ## <h1>Credits</h1>
 
   ### Content  
