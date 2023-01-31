@@ -61,7 +61,7 @@ body {
     font-size: 1.2em;
     font-weight: 400;
     font-family: 'Bebas Neue', sans-serif;
-    color: #ececec;
+    color:#eb8921;
 }
 
 /* hightlight border of nav icons when hover over */
@@ -106,14 +106,14 @@ body {
 
 #logo a h1 {
     font-family: 'Lily Script One', sans-serif;
-    color: #ececec;
+    color: #eb8921;
     font-weight: 400;
     font-size: 2.0em;
 }
 
 #logo a h2 {
     font-family: 'Lily Script One', sans-serif;
-    color: #ececec;
+    color: #eb8921;
     font-weight: 400;
     font-size: 1.5em;
     text-align: center;
