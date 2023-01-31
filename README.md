@@ -94,9 +94,16 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 - __Contacts Page__
 
   - The contacts page has a form wit First Name, Last Name, Email Address, Phone Number and message area.
-  - Also Vertical radio buttons dictating the entry level of the student, Beginner Intermediate of Advanced. 
-  - The student will then be contacted by one of our assessor to determine the correct course and any other needs of the potential student.  
-
+   
+  - The student will then be contacted by one of our assessor to determine the correct course and any other needs of the potential student. 
+  
+    * The contact form is implemented to allow users to contact 'Guitar Licks'. These are the feields: 
+        * First Name (required, type=text)
+        * Last Name (required, type=text)
+        * Email (required, type=email)
+        * Message (required, type=textarea)
+  - Also Vertical radio buttons dictating the entry level of the student, Beginner Intermediate of Advanced.
+    
 
 <figure>
   <img src="assets/images/contacts.png" width=800>
