@@ -180,25 +180,25 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
       <figcaption>Color Pallet Used</figcaption>
     </figure>
 
-    ## Deployment 
- 
-* The site was deployed to GitHub pages. the steps to deploy are as follows: 
+    ## <h1>Deployment</h1> 
+   
+  * The site was deployed to GitHub pages. the steps to deploy are as follows: 
   * In the GitHub repository, navigate to the settings tab
   * Select the pages link from the setting menu on the left hand side 
   * Under the GitHub Pages from the source section drop-down menu, select the master branch 
   * One the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
   
-The live link can be found here - [Guitar Licks](https://shaga-matula.github.io/guitar-licks/index.html)
+  The live link can be found here - [Guitar Licks](https://shaga-matula.github.io/guitar-licks/index.html)
 
 
-## Credits
+  ## <h1>Credits</h1>
 
-### Content  
+  ### Content  
 
-* The text for all other pages was created by me. 
-* The reference material on HTML and CSS provided by [w3schools.com](https://www.w3schools.com/) was used to help with coding. 
-* Footer were from [Font Awesome](https://fontawesome.com/)
+  * The text for all other pages was created by me. 
+  * The reference material on HTML and CSS provided by [w3schools.com](https://www.w3schools.com/) was used to help with coding. 
+  * Footer were from [Font Awesome](https://fontawesome.com/)
 
-### Media 
-* The images used for hero image are free open sourse from (https://www.pexels.com/)
+  ### Media 
+  * The images used for hero image are free open sourse from (https://www.pexels.com/)
 

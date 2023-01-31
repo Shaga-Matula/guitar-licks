@@ -123,11 +123,12 @@ body {
 
 
 .main-image {
-    background-image: url(../images/b-w-guitar.jpg);
+    /* background-image: url(../images/b-w-guitar.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    background-color: black;
 
 
 }
@@ -147,6 +148,7 @@ body {
     font-size: 3em;
     align-self: flex-start;
     text-align: center;
+    
 }
 
 #main-title-2 {
