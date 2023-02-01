@@ -543,7 +543,7 @@ fieldset label {
 legend {
     font-family: lato, sans-serif;
     font-size: 1.2em;
-    padding: 0 .5em;
+    padding: 1em .5em;
     color: black;
 }
 
@@ -709,7 +709,7 @@ iframe {
     #pedal-image {
         margin: 10px;
         height: auto;
-        background-image: url(../images/croud-music.jpg);
+        background-image: url(../images/croud-music.webp);
 
     }
 
