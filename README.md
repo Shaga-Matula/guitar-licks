@@ -126,8 +126,6 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 </figure>
 
 
-
-
 ## <h1>Design</h1> 
 
 ### Inital Sketch  :-  A rough sketch was performed to get the basic layout of the page using pen and paper
@@ -301,7 +299,7 @@ Every pages was tested for responsiveness on screen sizes from 320px and upwards
 
   * The text for all other pages was created by me. 
   * The reference material on HTML and CSS provided by [w3schools.com](https://www.w3schools.com/) was used to help with coding. 
-  * Footer were from [Font Awesome](https://fontawesome.com/)
+  * Footer Icons were from [Font Awesome](https://fontawesome.com/)
 
   ### Media 
   * The images used for hero image are free open sourse from (https://www.pexels.com/)
