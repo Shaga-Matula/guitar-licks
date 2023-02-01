@@ -212,7 +212,29 @@ Every pages was tested for responsiveness on screen sizes from 320px and upwards
 ## Issue:- Nav menu did not fit accross smaller 320px screen, icons were wrapping.
   - Fix: Set @media for less than 320px and reduced padding on Nav bar to allow inline deployment.  
   - All further tests performed were scussful. 
+## Issue:- At 320px screen, message area bleeding to right.
 
+  <figure>
+      <img src="assets/images/error2-b4-1.png" width=100>
+      <figcaption>Error Before</figcaption>
+      </figure>
+  - Fix: Identify code for area
+  <figure>
+      <img src="assets/images/error2-b4.png" width=100>
+      <figcaption>Code area bug before bug fix</figcaption>
+      </figure>
+  - Fix: Alter Identify code for area
+    <img src="assets/images/error2-fix-1.png" width=100>
+      <figcaption>Code area after bug fix</figcaption>
+      </figure>
+  - Fix: Text area after bug fix
+    <img src="assets/images/error2-fix-2.png" width=100>
+      <figcaption>Display area after bug fix</figcaption>
+      </figure>
+  - Tested area and error has disapated. 
+
+
+  - All further tests performed were scussful. 
 
 ### Validator Testing 
 
