@@ -110,6 +110,12 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
   <img src="assets/images/contacts.png" width=800>
 </figure>
 
+  - Testing of raido buttons, all testing was successful and no errors were produced.  
+
+<figure>
+  <img src="assets/images/form-test.png" width=200>
+</figure>
+
 
   - A map section with the studio pined is inclduded with the address on the contents page above the footer.
   - The map was set to night vision for colors.   
