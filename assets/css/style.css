@@ -565,7 +565,8 @@ input[type="text"] {
 textarea {
     background-color: rgb(250, 240, 240);
     min-height: 8em;
-    min-width: 100%;
+    min-width: 80%;
+    max-width: 90%;
     padding: .5em;
     border: solid .5px black;
 }
