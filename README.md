@@ -214,26 +214,27 @@ Every pages was tested for responsiveness on screen sizes from 320px and upwards
   - All further tests performed were scussful. 
 ### Issue:- At 320px screen, message area bleeding to right.
 
+  - Fix :- Message area before bug fix.
   <figure>
       <img src="assets/images/error2-b4-1.png" width=100>
-      <figcaption>Error Before</figcaption>
+      <figcaption>Display of area before bug fix</figcaption>
       </figure>
   - Fix :- First identify code for area.
   <figure>
       <img src="assets/images/error2-b4.png" width=100>
-      <figcaption>Code area bug before bug fix</figcaption>
+      <figcaption>Code snapshot bug before bug fix</figcaption>
       </figure>
 
-  - Fix :- Alter code for area to allow for growth and max with.
+  - Fix :- Alter code for area to allow for growth and max width.
   <figure>
     <img src="assets/images/error2-fix-1.png" width=100>
-    <figcaption>Code area after bug fix</figcaption>
+    <figcaption>Code snapshot after bug fix</figcaption>
     </figure>
   
-  - Fix :- Text area after bug fix
+  - Fix :- Message area after bug fix
   <figure>
     <img src="assets/images/error2-fix-2.png" width=100>
-    <figcaption>Display area after bug fix</figcaption>
+    <figcaption>Display of area after bug fix</figcaption>
     </figure>
   
   - Tested area and error has disapated. 
@@ -262,9 +263,9 @@ Every pages was tested for responsiveness on screen sizes from 320px and upwards
         - Guitar Licks ---- no errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fshaga-matula.github.io%2Fguitar-licks%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Wave Testing
-  - Getting very bad contrast from backround image on main landing page. I converted the backround image to black and white and gave it a backround of black. 
-  - On Syllabus page there were over 30 contrast errors, again it was the background color needed changing to black.
-  - There is one warning that will not go away as I have made the logo into a link and its complaining about nav bar link as a duplicate (long time figuring out that). 
+  - Issue :- Getting very bad contrast from backround image on main landing page. I converted the backround image to black and white and gave it a backround of black. 
+  - Issue :- On Syllabus page there were over 30 contrast errors, again it was the background color needed changing to black.
+  - Issue :- There is one warning that will not go away as I have made the logo into a link and its complaining about nav bar link as a duplicate (long time figuring out that). 
 
   <figure>
   <img src="assets/images/wave-landing.png" width=100>
