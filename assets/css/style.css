@@ -393,7 +393,7 @@ a {
 
 
 .card {
-    background-image: url(../images/ibaniz-guitar.jpg);
+    background-image: url(../images/ibaniz-guitar-back.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -418,7 +418,7 @@ a {
 }
 
 .card-back-page {
-    background-image: url(../images/door-guitar.jpg);
+    background-image: url(../images/door-guitar-back.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -445,7 +445,7 @@ a {
 
 .course-image {
 
-    background-image: url(../images/man-2591032_1280.jpg);
+    background-image: url(../images/man-2591032_1280.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
