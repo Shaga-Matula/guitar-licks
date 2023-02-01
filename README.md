@@ -209,28 +209,33 @@ Every pages was tested for responsiveness on screen sizes from 320px and upwards
   - Set the zoom to 50%
   - Click and drag the responsive window to maximum width
 
-## Issue:- Nav menu did not fit accross smaller 320px screen, icons were wrapping.
+### Issue:- Nav menu did not fit accross smaller 320px screen, icons were wrapping.
   - Fix: Set @media for less than 320px and reduced padding on Nav bar to allow inline deployment.  
   - All further tests performed were scussful. 
-## Issue:- At 320px screen, message area bleeding to right.
+### Issue:- At 320px screen, message area bleeding to right.
 
   <figure>
       <img src="assets/images/error2-b4-1.png" width=100>
       <figcaption>Error Before</figcaption>
       </figure>
-  - Fix: Identify code for area
+  - Fix :- First identify code for area.
   <figure>
       <img src="assets/images/error2-b4.png" width=100>
       <figcaption>Code area bug before bug fix</figcaption>
       </figure>
-  - Fix: Alter Identify code for area
+
+  - Fix :- Alter code for area to allow for growth and max with.
+  <figure>
     <img src="assets/images/error2-fix-1.png" width=100>
-      <figcaption>Code area after bug fix</figcaption>
-      </figure>
-  - Fix: Text area after bug fix
+    <figcaption>Code area after bug fix</figcaption>
+    </figure>
+  
+  - Fix :- Text area after bug fix
+  <figure>
     <img src="assets/images/error2-fix-2.png" width=100>
-      <figcaption>Display area after bug fix</figcaption>
-      </figure>
+    <figcaption>Display area after bug fix</figcaption>
+    </figure>
+  
   - Tested area and error has disapated. 
 
 
