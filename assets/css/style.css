@@ -201,7 +201,7 @@ a {
 
 #circle-inner {
 
-    background-image: url(../images/Gl-icon.jpg);
+    background-image: url(../images/gl-icon-_1_.webp);
     background-size: 150%;
     background-repeat: no-repeat;
     background-position: center;
@@ -215,7 +215,7 @@ a {
 
 #pedal-image {
     background-color: white;
-    background-image: url(../images/guitar-pedels.jpg);
+    background-image: url(../images/guitar-pedels.webp);
     padding-top: 100px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -226,7 +226,7 @@ a {
 /*================= Registory of Guitar Tutors banner\logo ==============*/
 #rgt-logo {
     background-color: white;
-    background-image: url(../images/RGT.jpg);
+    background-image: url(../images/rgt.webp);
     padding-top: 50px;
     padding-right: 10px;
     background-size: contain;
