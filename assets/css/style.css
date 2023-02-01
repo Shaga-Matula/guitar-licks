@@ -141,7 +141,7 @@ body {
 }
 
 #main-title-1 {
-    font-family: 'Lily Script One', sans-serif;
+    /* font-family: 'Lily Script One', sans-serif; */
     color: #eb8921;
     font-size: 3em;
     align-self: flex-start;
@@ -150,7 +150,7 @@ body {
 }
 
 #main-title-2 {
-    font-family: 'Lily Script One', sans-serif;
+    /* font-family: 'Lily Script One', sans-serif; */
     color: #eb8921;
     font-size: 2em;
     align-self: center;
@@ -160,7 +160,7 @@ body {
 
 #main-title-3,
 a {
-    font-family: 'Lily Script One', sans-serif;
+    /* font-family: 'Lily Script One', sans-serif; */
     color: #eb8921;
     font-size: 1.5em;
     align-self: flex-end;
