@@ -177,7 +177,6 @@ a {
 /* =============== portrate circle image and about me text */
 
 #circle-back {
-    /* background-color: green; */
     padding-top: 10px;
     padding-bottom: 10px;
     height: auto;
@@ -261,10 +260,7 @@ a {
     font-size: 1em;
     height: auto;
 
-
-
 }
-
 
 #ethos {
     font-family: Montserrat, sans-serif;
@@ -275,8 +271,6 @@ a {
 
     text-align: center;
     padding: 30px 10px 10px 10px;
-
-
 }
 
 #guitar-styles {
@@ -285,11 +279,8 @@ a {
     font-weight: 900;
     font-size: 1em;
     height: 100%;
-
     padding-right: .5em;
     text-align: center;
-
-
 }
 
 #style-list {
@@ -301,29 +292,20 @@ a {
     font-size: 1em;
     height: 100%;
     padding: 0 0 10px 30px;
-
-
 }
 
 
 /* =============== testimonial ============ */
 
-
-
 .testi-pat-hof,
 .testi-april-r,
 .testi-don-J {
-
-
     font-weight: 900;
     font-size: 1em;
     height: auto;
     padding: 15px 10px 10px 10px;
     text-align: center;
-
-
 }
-
 
 /* center testomial header */
 .cent-test {
@@ -607,18 +589,31 @@ iframe {
     border-radius: 5px;
 }
 
+/* =================== 404 Page ================================== */
+
+.text-center {
+    display: block;
+    height: auto;
+    text-align: center;
+    padding: 20vh 0;
+    background-color:#30475e;
+}
+
+
 /* =================== Smart Phones ================================== */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     #nav-bar li a {
         font-size: .5em;
-        /* color: red; */
+
     }
+
     #nav-bar li {
         display: inline-block;
         padding: 0;
         background-color: #222831;
     }
+
     #head-area {
         width: 100%;
     }
@@ -750,7 +745,6 @@ iframe {
     .testimon-container {
         display: flex;
         justify-content: space-evenly;
-
     }
 
     .testimon {
@@ -761,14 +755,12 @@ iframe {
     }
 
     .licks-gallery img {
-
         height: auto;
     }
 
     .card {
         border: 5px;
     }
-
 
     .card-back-page {
         display: flex;
@@ -783,7 +775,6 @@ iframe {
         justify-content: space-around;
         max-width: 500px;
         min-width: 300px;
-
     }
 
     /* ================ contacts page =========== */
@@ -793,8 +784,6 @@ iframe {
         align-items: center;
         justify-content: space-evenly;
         padding-bottom: 10px;
-
-
     }
 
     .our-add-container {
@@ -802,10 +791,7 @@ iframe {
     }
 
     .our-address-back {
-
         padding-top: 10px;
-
-
     }
 
     .signup-form {
@@ -822,15 +808,10 @@ iframe {
     .our-add-container {
         padding-bottom: 10px;
     }
-
-
-
 }
-
 
 @media screen and (max-width: 1200px) {
     .our-add-container {
         padding-bottom: 10px;
     }
-
 }

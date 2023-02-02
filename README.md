@@ -333,7 +333,7 @@ Every pages was tested for responsiveness on screen sizes from 320px and upwards
   | Navigation Link | Page to Load    |
   | --------------- | --------------- |
   | Home            | index.html      |
-  | Signup          | signup.html |
+  | Signup          | signup.html     |
   | Courses         | courses.html    |
   | Gallery         | gallery.html    |
 
