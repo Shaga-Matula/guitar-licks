@@ -303,6 +303,7 @@ Every pages was tested for responsiveness on screen sizes from 320px and upwards
   - Issue:- Geting low score on landing page.
   - Fix :- Change background image to black and white.
   - Fix :- Reduce size of images by Tiny PNG. 
+  - Fix :- Convery all images to webp using convertio.co. 
   
   <figure>
   <img src="assets/images/lh-index.png" width=200>
@@ -310,21 +311,22 @@ Every pages was tested for responsiveness on screen sizes from 320px and upwards
   </figure>
   
   <figure>
-  <img src="assets/images/lh-courses.png" width=100>
+  <img src="assets/images/lh-courses.png" width=200>
     <figcaption>Lighthouse Courses.html</figcaption>
   </figure>
   
-  <figure>
-  <img src="assets/images/wave-gallery.png" width=100>
-    <figcaption>Gallery Page-Wave</figcaption>
+   <figure>
+  <img src="assets/images/lh-gallery.png" width=200>
+    <figcaption>Lighthouse Gallery.html</figcaption>
   </figure>
   
-  <figure>
-  <img src="assets/images/wave-signup.png" width=100>
-    <figcaption>Landing Page Wave</figcaption>
+   <figure>
+  <img src="assets/images/lh-signup.png" width=200>
+    <figcaption>Lighthouse Signup.html</figcaption>
   </figure>
   
-  ### Navigation Links
+ 
+  ## Navigation Links
 
   - Testing to ensure all navigation links function properly and navigated to the correct pages. Manual test was performed by clicking on each link.
 
