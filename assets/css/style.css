@@ -75,9 +75,7 @@ body {
     color: #ececec;
 }
 
-/* #nav-bar li a:active {
-    background-color: red;
-} */
+
 
 .active {
 
@@ -123,7 +121,7 @@ body {
 
 
 .main-image {
-    /* background-image: url(../images/b-w-guitar.webp); */
+    background-image: url(../images/b-w-guitar.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
