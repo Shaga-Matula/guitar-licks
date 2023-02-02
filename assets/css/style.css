@@ -680,15 +680,20 @@ iframe {
         border: 5px;
     }
 
+    #nav-bar li a {
+        font-size: 1em;
+
+    }
+
 }
 
 
-
+/* 
 @media only screen and (min-width: 610px) {
     .card {
         border: 5px;
     }
-}
+} */
 
 
 /* ==================== Tablets  ====================================== */
