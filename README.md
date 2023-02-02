@@ -110,12 +110,7 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
   <img src="assets/images/contacts.png" width=800>
 </figure>
 
-  - Testing of raido buttons, all testing was successful and no errors were produced.  
-
-<figure>
-  <img src="assets/images/form-test.png" width=200>
-</figure>
-
+  
 
   - A map section with the studio pined is inclduded with the address on the contents page above the footer.
   - The map was set to night vision for colors.   
@@ -123,6 +118,14 @@ Players are encouraged through the site to sign up at a massive 50% discount. Th
 
 <figure>
   <img src="assets/images/map.png" width=800>
+</figure>
+
+  - 404 Page
+  - A 404 page is implemented and will be displayed in case of a broken link.
+  - The page will allow the user to navigate back to the main website, without the need of the back button.
+
+  <figure>
+  <img src="assets/images/404.png" width=800>
 </figure>
 
 
@@ -336,6 +339,21 @@ Every pages was tested for responsiveness on screen sizes from 320px and upwards
   | Signup          | signup.html     |
   | Courses         | courses.html    |
   | Gallery         | gallery.html    |
+
+## Form Testing
+
+  - Issue: - Checkbox not responding correctly.
+    - Fix: - Code error, all radio buttons had same name which didn’t allow for choice.
+    - Fix: - Renamed chk1 to chk3
+  - Further Testing
+    - Rigerous manual testing was performed using multiple text inputs to the fields.
+    - Testing of raido buttons and input fields, all testing was successful and no errors were produced. 
+   
+  
+  <figure>
+    <img src="assets/images/form-test.png" width=200>
+  </figure>
+
 
   ## <h1>Credits</h1>
 
