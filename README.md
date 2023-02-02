@@ -213,6 +213,12 @@ Every pages was tested for responsiveness on screen sizes from 320px and upwards
   - Set the zoom to 50%
   - Click and drag the responsive window to maximum width
 
+  - Testing was performed on the screen sizes below. 
+    - Ipad, Ipad Air, Ipad Mini, Ipad Pro
+    - Large screen Desktop 
+    - Iphone 5 to 12-Pro
+    - Gallaxy Fold, Pixel 5, Surface Pro
+
 ### Issue:- Nav menu did not fit accross smaller 320px screen, icons were wrapping.
   - Fix: Set @media for less than 320px and reduced padding on Nav bar to allow inline deployment.  
   - All further tests performed were scussful. 
@@ -271,6 +277,7 @@ Every pages was tested for responsiveness on screen sizes from 320px and upwards
   - Issue :- On Syllabus page there were over 30 contrast errors, again it was the background color needed changing to black.
   - Issue :- There is one warning that will not go away as I have made the logo into a link and its complaining about nav bar link as a duplicate (long time figuring out that). 
 
+
   <figure>
   <img src="assets/images/wave-landing.png" width=100>
     <figcaption>Landing Page-Wave</figcaption>
@@ -291,8 +298,43 @@ Every pages was tested for responsiveness on screen sizes from 320px and upwards
     <figcaption>Landing Page Wave</figcaption>
   </figure>
   
+  ## Lighthouse Testing
+
+  - Issue:- Geting low score on landing page.
+  - Fix :- Change background image to black and white.
+  - Fix :- Reduce size of images by Tiny PNG. 
   
+  <figure>
+  <img src="assets/images/lh-index.png" width=200>
+    <figcaption>Lighthouse Index.html</figcaption>
+  </figure>
   
+  <figure>
+  <img src="assets/images/lh-courses.png" width=100>
+    <figcaption>Lighthouse Courses.html</figcaption>
+  </figure>
+  
+  <figure>
+  <img src="assets/images/wave-gallery.png" width=100>
+    <figcaption>Gallery Page-Wave</figcaption>
+  </figure>
+  
+  <figure>
+  <img src="assets/images/wave-signup.png" width=100>
+    <figcaption>Landing Page Wave</figcaption>
+  </figure>
+  
+  ### Navigation Links
+
+  - Testing to ensure all navigation links function properly and navigated to the correct pages. Manual test was performed by clicking on each link.
+
+  | Navigation Link | Page to Load    |
+  | --------------- | --------------- |
+  | Home            | index.html      |
+  | Signup          | signup.html |
+  | Courses         | courses.html    |
+  | Gallery         | gallery.html    |
+
   ## <h1>Credits</h1>
 
   ### Content  
